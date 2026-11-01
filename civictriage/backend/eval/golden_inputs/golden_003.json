@@ -1,0 +1,12 @@
+{
+  "report_id": "golden_003",
+  "file_path": "streetlight_broken.jpg",
+  "raw_text": "Streetlight pole broken with dangling exposed wires in Madhapur near cyber towers, pitch dark and risk of electric shock",
+  "gps_lat": 17.4485,
+  "gps_lng": 78.3908,
+  "expected": {
+    "category": "streetlight",
+    "severity_tier": "medium",
+    "authority_name": "GHMC — Electrical & Streetlighting Wing"
+  }
+}

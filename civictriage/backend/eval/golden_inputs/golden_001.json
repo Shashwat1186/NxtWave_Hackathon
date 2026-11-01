@@ -1,0 +1,13 @@
+{
+  "report_id": "golden_001",
+  "file_path": "pothole_main_road.jpg",
+  "raw_text": "There is a massive pothole on the main road near Jubilee Hills, it's causing accidents",
+  "gps_lat": 17.4319,
+  "gps_lng": 78.4087,
+  "expected": {
+    "category": "road_damage",
+    "severity_tier": "high",
+    "authority_name": "GHMC — Roads & Buildings Department"
+  }
+}
+

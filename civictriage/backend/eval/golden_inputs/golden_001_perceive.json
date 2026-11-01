@@ -1,0 +1,9 @@
+{
+  "issue_type": "road_damage",
+  "damage_features": ["cracked asphalt", "deep crater pothole", "surface subsidence"],
+  "hazard_indicators": ["risk of vehicle suspension damage", "motorcycle rollover hazard", "traffic slowdown"],
+  "estimated_area_sqm": 2.5,
+  "confidence": 0.94,
+  "raw_description": "Large dangerous pothole in asphalt roadway with severe cracking and deep depression posing rollover risk to two-wheelers."
+}
+

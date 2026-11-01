@@ -1,0 +1,13 @@
+{
+  "name": "civictriage-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CivicTriage - Autonomous Multimodal Grievance Redressal Platform",
+  "scripts": {
+    "build": "cd civictriage/frontend && npm install && npm run build",
+    "dev:frontend": "cd civictriage/frontend && npm run dev",
+    "build:frontend": "cd civictriage/frontend && npm run build",
+    "preview": "cd civictriage/frontend && npm run preview"
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+  "primary_authority": {
+    "authority_id": "GHMC_ROADS",
+    "authority_name": "GHMC — Roads & Buildings Department",
+    "tier": 1,
+    "contact_email": "chief.engineer.roads@ghmc.gov.in",
+    "contact_webhook": "https://api.ghmc.gov.in/v1/grievance/roads"
+  },
+  "fallback_authority": {
+    "authority_id": "GHMC_COMMISSIONER",
+    "authority_name": "GHMC Commissionerate (Escalation Authority)",
+    "tier": 2,
+    "contact_email": "commissioner@ghmc.gov.in",
+    "contact_webhook": "https://api.ghmc.gov.in/v1/escalations"
+  },
+  "confidence": 0.96,
+  "citation_chunk_ids": ["ghmc_roads_chunk_001", "ghmc_roads_chunk_002"],
+  "routing_justification": "Under GHMC Engineering Charter Section 4(a), maintenance of arterial and collector bitumen roadways falls exclusively under the GHMC Roads and Buildings Department."
+}
+

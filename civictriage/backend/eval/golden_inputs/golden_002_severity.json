@@ -1,0 +1,14 @@
+{
+  "hazard_type": "water_main_break",
+  "structural_risk": true,
+  "fire_risk": false,
+  "blocks_traffic": true,
+  "water_contamination_risk": true,
+  "near_pedestrians": true,
+  "estimated_area_sqm": 15.0,
+  "hazard_indicators": ["drinking water wastage", "aquaplaning hazard", "road sub-base damage"],
+  "additional_hazards": ["drinking water wastage", "aquaplaning hazard", "road sub-base damage"],
+  "damage_features": ["burst municipal pipe", "water pooling across carriageway", "curb erosion"],
+  "confidence": 0.92
+}
+

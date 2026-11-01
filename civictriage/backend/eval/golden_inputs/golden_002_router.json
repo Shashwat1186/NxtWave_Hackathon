@@ -1,0 +1,21 @@
+{
+  "primary_authority": {
+    "authority_id": "HMWSSB_WATER",
+    "authority_name": "HMWSSB — Hyderabad Metro Water Supply & Sewerage Board",
+    "tier": 1,
+    "contact_email": "support@hmwssb.gov.in",
+    "contact_webhook": "https://api.hmwssb.gov.in/v1/complaints/water"
+  },
+  "fallback_authority": {
+    "authority_id": "MAUD_TELANGANA",
+    "authority_name": "Municipal Administration & Urban Development (MA&UD)",
+    "tier": 2,
+    "contact_email": "prlsecy-maud@telangana.gov.in",
+    "contact_webhook": "https://maud.telangana.gov.in/api/v1/escalate"
+  },
+  "confidence": 0.95,
+  "citation_chunk_ids": [
+    "hmwssb_water_chunk_001"
+  ],
+  "routing_justification": "Under HMWSSB Act 1989 Section 12, drinking water supply infrastructure, distribution pipelines, and mains bursts fall strictly under HMWSSB Operation & Maintenance division."
+}

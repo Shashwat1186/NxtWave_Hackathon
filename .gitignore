@@ -1,0 +1,178 @@
+# ==============================================================================
+# CivicTriage Root .gitignore
+# Full-Stack Monorepo: FastAPI (Python) + React / Vite (TypeScript)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment Variables & Credentials (CRITICAL - NEVER COMMIT)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# Project-specific env files
+civictriage/backend/.env
+civictriage/backend/.env.*
+!civictriage/backend/.env.example
+civictriage/frontend/.env.local
+civictriage/frontend/.env.development.local
+civictriage/frontend/.env.test.local
+civictriage/frontend/.env.production.local
+civictriage/frontend/.env.production
+!civictriage/frontend/.env.example
+
+# ------------------------------------------------------------------------------
+# 2. Python & Virtual Environments
+# ------------------------------------------------------------------------------
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+civictriage/backend/.venv/
+
+# Python packaging & distribution
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing, type checking & linting
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+htmlcov/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ------------------------------------------------------------------------------
+# 3. Node.js & Frontend (React / Vite)
+# ------------------------------------------------------------------------------
+node_modules/
+civictriage/frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite / Frontend build artifacts
+dist/
+civictriage/frontend/dist/
+civictriage/frontend/dist-ssr/
+civictriage/frontend/.vite/
+*.tsbuildinfo
+
+# ------------------------------------------------------------------------------
+# 4. Vercel & Cloud Deployments
+# ------------------------------------------------------------------------------
+.vercel/
+.netlify/
+.serverless/
+.fusebox/
+.dynamodb/
+
+# ------------------------------------------------------------------------------
+# 5. Runtime Storage & Ephemeral Uploads
+# ------------------------------------------------------------------------------
+uploads/
+civictriage/backend/uploads/
+/tmp/uploads/
+*.sqlite
+*.sqlite3
+*.db
+*.mongo
+mongodump/
+dump/
+
+# ------------------------------------------------------------------------------
+# 6. IDEs & Editors
+# ------------------------------------------------------------------------------
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/*.log
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+
+# ------------------------------------------------------------------------------
+# 7. Operating System Artifacts
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.trash/
+
+# Logs
+*.log
+logs/

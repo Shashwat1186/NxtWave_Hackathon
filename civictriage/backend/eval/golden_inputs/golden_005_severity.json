@@ -1,0 +1,14 @@
+{
+  "hazard_type": "sewage_overflow",
+  "structural_risk": false,
+  "fire_risk": false,
+  "blocks_traffic": true,
+  "water_contamination_risk": true,
+  "near_pedestrians": true,
+  "estimated_area_sqm": 6.0,
+  "hazard_indicators": ["public health pathogen risk", "toxic sewer gas emission", "pedestrian fall hazard"],
+  "additional_hazards": ["public health pathogen risk", "toxic sewer gas emission", "pedestrian fall hazard"],
+  "damage_features": ["overflowing underground sewer line", "blackwater stagnation", "displaced manhole cover"],
+  "confidence": 0.94
+}
+

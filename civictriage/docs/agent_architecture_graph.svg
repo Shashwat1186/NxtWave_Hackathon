@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 920" width="100%" height="100%" style="background:#090d16; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="activeNodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#60a5fa" />
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#ef4444" />
+    </marker>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" />
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#a855f7" />
+    </marker>
+  </defs>
+
+  <!-- Title Banner -->
+  <rect x="30" y="20" width="1140" height="85" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2" />
+  <text x="60" y="55" fill="url(#headerGrad)" font-size="24" font-weight="900" letter-spacing="1.5">CIVICTRIAGE — AUTONOMOUS 8-NODE AGENT ARCHITECTURE</text>
+  <text x="60" y="80" fill="#94a3b8" font-size="13" font-weight="500">Stateful LangGraph Topology · Multimodal Perception · Deterministic MongoDB Rule Engine · Realtime SSE Telemetry</text>
+  <rect x="990" y="42" width="150" height="36" rx="18" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5" />
+  <text x="1065" y="65" fill="#93c5fd" font-size="12" font-weight="700" text-anchor="middle">LIVE AGENT GRAPH</text>
+
+  <!-- Left Column: Pipeline Nodes -->
+  <g id="pipeline-nodes">
+    <!-- Entry: Citizen Report -->
+    <rect x="50" y="130" width="280" height="52" rx="12" fill="#1e1b4b" stroke="#6366f1" stroke-width="2" />
+    <text x="75" y="153" fill="#c7d2fe" font-size="12" font-weight="800">🚀 CITIZEN SUBMISSION</text>
+    <text x="75" y="170" fill="#818cf8" font-size="11">Photo / Voice Note / Text + GPS Coordinates</text>
+
+    <!-- Node 1: Intake Guard -->
+    <rect x="50" y="210" width="280" height="62" rx="12" fill="url(#nodeGrad)" stroke="#3b82f6" stroke-width="1.8" />
+    <circle cx="75" cy="241" r="14" fill="#1e3a8a" />
+    <text x="75" y="246" fill="#60a5fa" font-size="12" font-weight="800" text-anchor="middle">1</text>
+    <text x="100" y="233" fill="#f8fafc" font-size="13" font-weight="800">intake_guard</text>
+    <text x="100" y="250" fill="#94a3b8" font-size="11">MIME verification &amp; content safety filter</text>
+    <text x="100" y="263" fill="#38bdf8" font-size="10" font-weight="600">Pass: Civic relevance &gt; 0.60</text>
+
+    <!-- Node 2: Perceive -->
+    <rect x="50" y="300" width="280" height="62" rx="12" fill="url(#nodeGrad)" stroke="#3b82f6" stroke-width="1.8" />
+    <circle cx="75" cy="331" r="14" fill="#1e3a8a" />
+    <text x="75" y="336" fill="#60a5fa" font-size="12" font-weight="800" text-anchor="middle">2</text>
+    <text x="100" y="323" fill="#f8fafc" font-size="13" font-weight="800">perceive</text>
+    <text x="100" y="340" fill="#94a3b8" font-size="11">Multimodal vision + Audio transcription</text>
+    <text x="100" y="353" fill="#38bdf8" font-size="10" font-weight="600">Gemini multimodal / category guard</text>
+
+    <!-- Node 3: Geo Resolver -->
+    <rect x="50" y="390" width="280" height="62" rx="12" fill="url(#nodeGrad)" stroke="#3b82f6" stroke-width="1.8" />
+    <circle cx="75" cy="421" r="14" fill="#1e3a8a" />
+    <text x="75" y="426" fill="#60a5fa" font-size="12" font-weight="800" text-anchor="middle">3</text>
+    <text x="100" y="413" fill="#f8fafc" font-size="13" font-weight="800">geo_resolver</text>
+    <text x="100" y="430" fill="#94a3b8" font-size="11">GPS / EXIF Nominatim reverse geocode</text>
+    <text x="100" y="443" fill="#38bdf8" font-size="10" font-weight="600">Overpass POIs (Hospitals, Schools)</text>
+
+    <!-- Node 4: Deduplicator -->
+    <rect x="50" y="480" width="280" height="62" rx="12" fill="url(#nodeGrad)" stroke="#3b82f6" stroke-width="1.8" />
+    <circle cx="75" cy="511" r="14" fill="#1e3a8a" />
+    <text x="75" y="516" fill="#60a5fa" font-size="12" font-weight="800" text-anchor="middle">4</text>
+    <text x="100" y="498" fill="#f8fafc" font-size="13" font-weight="800">deduplicator</text>
+    <text x="100" y="520" fill="#94a3b8" font-size="11">500m radius $nearSphere cluster</text>
+    <text x="100" y="533" fill="#38bdf8" font-size="10" font-weight="600">Cosine embedding (same category only)</text>
+
+    <!-- Node 5: Severity Scorer -->
+    <rect x="50" y="570" width="280" height="62" rx="12" fill="url(#nodeGrad)" stroke="#3b82f6" stroke-width="1.8" />
+    <circle cx="75" cy="601" r="14" fill="#1e3a8a" />
+    <text x="75" y="606" fill="#60a5fa" font-size="12" font-weight="800" text-anchor="middle">5</text>
+    <text x="100" y="593" fill="#f8fafc" font-size="13" font-weight="800">severity_scorer</text>
+    <text x="100" y="610" fill="#94a3b8" font-size="11">Deterministic mathematical rubric (0-100)</text>
+    <text x="100" y="623" fill="#38bdf8" font-size="10" font-weight="600">Hazard + RoadClass + Hospital POI</text>
+
+    <!-- Node 6: Authority Router -->
+    <rect x="50" y="660" width="280" height="62" rx="12" fill="url(#activeNodeGrad)" stroke="#60a5fa" stroke-width="2" filter="url(#glow)" />
+    <circle cx="75" cy="691" r="14" fill="#2563eb" />
+    <text x="75" y="696" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle">6</text>
+    <text x="100" y="683" fill="#ffffff" font-size="13" font-weight="900">authority_router</text>
+    <text x="100" y="700" fill="#bfdbfe" font-size="11">Rule-Based Engine (MongoDB $geoIntersects)</text>
+    <text x="100" y="713" fill="#93c5fd" font-size="10" font-weight="700">25 Seeded Rules · Statutory Charter Citations</text>
+
+    <!-- Node 7: Critic -->
+    <rect x="50" y="750" width="280" height="62" rx="12" fill="url(#nodeGrad)" stroke="#3b82f6" stroke-width="1.8" />
+    <circle cx="75" cy="781" r="14" fill="#1e3a8a" />
+    <text x="75" y="786" fill="#60a5fa" font-size="12" font-weight="800" text-anchor="middle">7</text>
+    <text x="100" y="773" fill="#f8fafc" font-size="13" font-weight="800">critic (Self-Reflection Gate)</text>
+    <text x="100" y="790" fill="#94a3b8" font-size="11">Confidence threshold &amp; grounding audit</text>
+    <text x="100" y="803" fill="#fbbf24" font-size="10" font-weight="600">Self-correction loop (max 2 retries)</text>
+
+    <!-- Node 8: Dispatcher -->
+    <rect x="50" y="840" width="280" height="56" rx="12" fill="#064e3b" stroke="#10b981" stroke-width="2" />
+    <circle cx="75" cy="868" r="14" fill="#059669" />
+    <text x="75" y="873" fill="#ffffff" font-size="12" font-weight="800" text-anchor="middle">8</text>
+    <text x="100" y="859" fill="#ffffff" font-size="13" font-weight="800">dispatcher</text>
+    <text x="100" y="876" fill="#a7f3d0" font-size="11">Formal complaint notice · Ticket ID · SLA</text>
+  </g>
+
+  <!-- Connecting Direct Arrows between Nodes -->
+  <line x1="190" y1="182" x2="190" y2="208" stroke="#60a5fa" stroke-width="2.5" marker-end="url(#arrow)" />
+  <line x1="190" y1="272" x2="190" y2="298" stroke="#60a5fa" stroke-width="2.5" marker-end="url(#arrow)" />
+  <line x1="190" y1="362" x2="190" y2="388" stroke="#60a5fa" stroke-width="2.5" marker-end="url(#arrow)" />
+  <line x1="190" y1="452" x2="190" y2="478" stroke="#60a5fa" stroke-width="2.5" marker-end="url(#arrow)" />
+  <line x1="190" y1="542" x2="190" y2="568" stroke="#60a5fa" stroke-width="2.5" marker-end="url(#arrow)" />
+  <line x1="190" y1="632" x2="190" y2="658" stroke="#60a5fa" stroke-width="2.5" marker-end="url(#arrow)" />
+  <line x1="190" y1="722" x2="190" y2="748" stroke="#60a5fa" stroke-width="2.5" marker-end="url(#arrow)" />
+  <line x1="190" y1="812" x2="190" y2="838" stroke="#10b981" stroke-width="2.5" marker-end="url(#arrowGreen)" />
+
+  <!-- Middle Column: Terminal Nodes & Critic Loopbacks -->
+  <!-- Terminal Reject -->
+  <rect x="410" y="210" width="210" height="62" rx="12" fill="#450a0a" stroke="#ef4444" stroke-width="1.8" />
+  <text x="430" y="235" fill="#fca5a5" font-size="12" font-weight="800">❌ TERMINAL: REJECT</text>
+  <text x="430" y="252" fill="#f87171" font-size="11">Spam / NSFW / Unrelated photo</text>
+  <text x="430" y="264" fill="#fecaca" font-size="10">Reason emitted via SSE</text>
+
+  <!-- Rejection lines -->
+  <path d="M 330 241 L 408 241" stroke="#ef4444" stroke-width="2" marker-end="url(#arrowRed)" />
+  <path d="M 330 331 L 370 331 L 370 253 L 408 253" stroke="#ef4444" stroke-width="1.8" fill="none" marker-end="url(#arrowRed)" />
+
+  <!-- Terminal Human Review -->
+  <rect x="410" y="750" width="210" height="62" rx="12" fill="#451a03" stroke="#f59e0b" stroke-width="1.8" />
+  <text x="430" y="775" fill="#fcd34d" font-size="12" font-weight="800">⚠️ TERMINAL: HUMAN REVIEW</text>
+  <text x="430" y="792" fill="#fbbf24" font-size="11">Retries exhausted (&gt;= 2)</text>
+  <text x="430" y="804" fill="#fef3c7" font-size="10">Ambiguous jurisdiction or missing rule</text>
+
+  <path d="M 330 781 L 408 781" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowAmber)" />
+
+  <!-- Critic Loopback to Perceive & Authority Router -->
+  <path d="M 330 765 C 380 765, 390 691, 332 691" stroke="#eab308" stroke-width="2" stroke-dasharray="4 4" fill="none" marker-end="url(#arrowAmber)" />
+  <text x="385" y="725" fill="#fef08a" font-size="10" font-weight="700">🔁 Retry Router</text>
+
+  <path d="M 330 795 C 400 795, 420 450, 400 345 C 380 331, 350 331, 332 331" stroke="#eab308" stroke-width="2" stroke-dasharray="4 4" fill="none" marker-end="url(#arrowAmber)" />
+  <text x="415" y="540" fill="#fef08a" font-size="10" font-weight="700">🔁 Retry Perceive</text>
+
+  <!-- Terminal Complete -->
+  <rect x="410" y="840" width="210" height="56" rx="12" fill="#064e3b" stroke="#10b981" stroke-width="2" filter="url(#glow)" />
+  <text x="430" y="863" fill="#86efac" font-size="12" font-weight="800">✅ TERMINAL: COMPLETE</text>
+  <text x="430" y="879" fill="#6ee7b7" font-size="11">Ticket dispatched &amp; active on map</text>
+  <path d="M 330 868 L 408 868" stroke="#10b981" stroke-width="2" marker-end="url(#arrowGreen)" />
+
+  <!-- Right Section: Architecture Ecosystem (DB, External Services, SSE) -->
+  <g id="ecosystem-panel">
+    <!-- MongoDB Atlas Box -->
+    <rect x="680" y="130" width="490" height="235" rx="16" fill="#022c22" stroke="#059669" stroke-width="1.8" />
+    <text x="705" y="160" fill="#34d399" font-size="14" font-weight="900">🍃 MONGODB ATLAS — PERSISTENCE &amp; RULE ENGINE</text>
+    
+    <rect x="705" y="176" width="220" height="44" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+    <text x="718" y="195" fill="#a7f3d0" font-size="11" font-weight="700">routingRules (25 rules)</text>
+    <text x="718" y="210" fill="#6ee7b7" font-size="10">category + subtype + asset_type index</text>
+
+    <rect x="940" y="176" width="210" height="44" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+    <text x="953" y="195" fill="#a7f3d0" font-size="11" font-weight="700">departments (10 ULBs)</text>
+    <text x="953" y="210" fill="#6ee7b7" font-size="10">GHMC, HMWSSB, TSSPDCL, etc.</text>
+
+    <rect x="705" y="232" width="220" height="44" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+    <text x="718" y="251" fill="#a7f3d0" font-size="11" font-weight="700">jurisdictions (2dsphere)</text>
+    <text x="718" y="266" fill="#6ee7b7" font-size="10">GeoJSON ward boundaries ($geoIntersects)</text>
+
+    <rect x="940" y="232" width="210" height="44" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+    <text x="953" y="251" fill="#a7f3d0" font-size="11" font-weight="700">issues (2dsphere + dedup)</text>
+    <text x="953" y="266" fill="#6ee7b7" font-size="10">Clustered reports, priority score, SLA</text>
+
+    <rect x="705" y="288" width="220" height="44" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+    <text x="718" y="307" fill="#a7f3d0" font-size="11" font-weight="700">sourceDocuments</text>
+    <text x="718" y="322" fill="#6ee7b7" font-size="10">GHMC Act 1955, Electricity Act 2003</text>
+
+    <rect x="940" y="288" width="210" height="44" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+    <text x="953" y="307" fill="#a7f3d0" font-size="11" font-weight="700">traces &amp; statusEvents</text>
+    <text x="953" y="322" fill="#6ee7b7" font-size="10">Immutable audit trail of LangGraph steps</text>
+
+    <!-- External AI Models Box -->
+    <rect x="680" y="380" width="490" height="175" rx="16" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.8" />
+    <text x="705" y="410" fill="#a5b4fc" font-size="14" font-weight="900">🌐 EXTERNAL SERVICES &amp; FALLBACK MATRIX</text>
+    
+    <rect x="705" y="426" width="220" height="50" rx="8" fill="#312e81" stroke="#818cf8" stroke-width="1" />
+    <text x="718" y="445" fill="#e0e7ff" font-size="11" font-weight="700">Google Gemini Multimodal</text>
+    <text x="718" y="461" fill="#c7d2fe" font-size="10">Primary: 2.0 Flash · Fallback: 1.5 Flash</text>
+
+    <rect x="940" y="426" width="210" height="50" rx="8" fill="#312e81" stroke="#818cf8" stroke-width="1" />
+    <text x="953" y="445" fill="#e0e7ff" font-size="11" font-weight="700">DemoModeClient (Cache)</text>
+    <text x="953" y="461" fill="#c7d2fe" font-size="10">eval/golden_inputs/ (100% Offline)</text>
+
+    <rect x="705" y="486" width="220" height="50" rx="8" fill="#312e81" stroke="#818cf8" stroke-width="1" />
+    <text x="718" y="505" fill="#e0e7ff" font-size="11" font-weight="700">Nominatim Geocoding</text>
+    <text x="718" y="521" fill="#c7d2fe" font-size="10">Reverse GPS → Street / Ward address</text>
+
+    <rect x="940" y="486" width="210" height="50" rx="8" fill="#312e81" stroke="#818cf8" stroke-width="1" />
+    <text x="953" y="505" fill="#e0e7ff" font-size="11" font-weight="700">OSM Overpass API</text>
+    <text x="953" y="521" fill="#c7d2fe" font-size="10">Proximity radius: Hospitals, Schools</text>
+
+    <!-- Realtime SSE Bus Box -->
+    <rect x="680" y="570" width="490" height="150" rx="16" fill="#3b0764" stroke="#a855f7" stroke-width="1.8" />
+    <text x="705" y="600" fill="#d8b4fe" font-size="14" font-weight="900">📡 REALTIME SSE EVENT STREAM BUS</text>
+    
+    <text x="705" y="626" fill="#f3e8ff" font-size="11">Publishes ProgressEvents live to frontend during execution:</text>
+    <rect x="705" y="638" width="445" height="30" rx="6" fill="#581c87" />
+    <text x="715" y="658" fill="#e9d5ff" font-family="monospace" font-size="11">data: {"node": "authority_router", "status": "done", "data": {...}}</text>
+
+    <text x="705" y="694" fill="#c084fc" font-size="11" font-weight="600">Automatic reconnect · Keepalive heartbeat · Browser-native EventSource</text>
+
+    <!-- Public Accountability & Dispatch Destinations Box -->
+    <rect x="680" y="735" width="490" height="161" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1.8" />
+    <text x="705" y="763" fill="#f8fafc" font-size="14" font-weight="900">🏛️ CITIZEN &amp; OFFICER SURFACES</text>
+
+    <rect x="705" y="777" width="220" height="44" rx="8" fill="#334155" stroke="#64748b" stroke-width="1" />
+    <text x="718" y="796" fill="#f1f5f9" font-size="11" font-weight="700">Public Live Map (/dashboard)</text>
+    <text x="718" y="811" fill="#cbd5e1" font-size="10">Leaflet GIS markers colored by severity</text>
+
+    <rect x="940" y="777" width="210" height="44" rx="8" fill="#334155" stroke="#64748b" stroke-width="1" />
+    <text x="953" y="796" fill="#f1f5f9" font-size="11" font-weight="700">Officer Portal (/admin)</text>
+    <text x="953" y="811" fill="#cbd5e1" font-size="10">Ticket inspection &amp; status override</text>
+
+    <rect x="705" y="830" width="220" height="44" rx="8" fill="#334155" stroke="#64748b" stroke-width="1" />
+    <text x="718" y="849" fill="#f1f5f9" font-size="11" font-weight="700">Issue Trace Page (/issues/:id)</text>
+    <text x="718" y="864" fill="#cbd5e1" font-size="10">Component score breakdown &amp; audit</text>
+
+    <rect x="940" y="830" width="210" height="44" rx="8" fill="#334155" stroke="#64748b" stroke-width="1" />
+    <text x="953" y="849" fill="#f1f5f9" font-size="11" font-weight="700">SLA Sweep Agent (/internal)</text>
+    <text x="953" y="864" fill="#cbd5e1" font-size="10">Auto-escalates Tier 1 → Tier 2 breaches</text>
+  </g>
+
+  <!-- Connectors from LangGraph to Ecosystem -->
+  <path d="M 330 691 L 680 195" stroke="#059669" stroke-width="1.8" stroke-dasharray="3 3" marker-end="url(#arrowGreen)" />
+  <path d="M 330 331 L 680 445" stroke="#6366f1" stroke-width="1.8" stroke-dasharray="3 3" marker-end="url(#arrowPurple)" />
+  <path d="M 330 421 L 680 505" stroke="#6366f1" stroke-width="1.8" stroke-dasharray="3 3" marker-end="url(#arrowPurple)" />
+  <path d="M 330 511 L 680 255" stroke="#059669" stroke-width="1.8" stroke-dasharray="3 3" marker-end="url(#arrowGreen)" />
+  <path d="M 330 868 L 680 795" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="3 3" marker-end="url(#arrow)" />
+
+</svg>

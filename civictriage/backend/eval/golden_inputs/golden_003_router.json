@@ -1,0 +1,20 @@
+{
+  "primary_authority": {
+    "authority_id": "GHMC_ELECTRICAL",
+    "authority_name": "GHMC — Electrical & Streetlighting Wing",
+    "tier": 1,
+    "contact_email": "electrical.wing@ghmc.gov.in",
+    "contact_webhook": "https://api.ghmc.gov.in/v1/grievance/electrical"
+  },
+  "fallback_authority": {
+    "authority_id": "TSSPDCL_POWER",
+    "authority_name": "TSSPDCL — Southern Power Distribution Company of Telangana",
+    "tier": 1,
+    "contact_email": "customerservice@tssspdcl.gov.in",
+    "contact_webhook": "https://tssspdcl.gov.in/api/v1/grievance"
+  },
+  "confidence": 0.97,
+  "citation_chunk_ids": ["ghmc_electrical_chunk_001"],
+  "routing_justification": "Streetlight maintenance and urban luminaire repairs within municipal boundaries fall under the GHMC Electrical Wing as per Hyderabad Municipal Corporation Act Section 115(1)."
+}
+

@@ -1,0 +1,13 @@
+{
+  "report_id": "golden_005",
+  "file_path": "sewage_overflow.jpg",
+  "raw_text": "Manhole overflowing with black domestic sewage on Ameerpet main road, toxic stench and dangerous contamination near street food vendors",
+  "gps_lat": 17.4375,
+  "gps_lng": 78.4483,
+  "expected": {
+    "category": "sewage",
+    "severity_tier": "high",
+    "authority_name": "HMWSSB — Hyderabad Metro Water Supply & Sewerage Board"
+  }
+}
+

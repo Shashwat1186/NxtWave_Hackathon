@@ -1,0 +1,90 @@
+[
+  {
+    "authority_id": "roads_highways_ulb",
+    "name": "Municipal Corporation & NHAI — Roads & Buildings Department",
+    "tier": 1,
+    "jurisdiction_categories": ["road_damage", "encroachment"],
+    "jurisdiction_wards": [],
+    "contact_email": "roads@municipal.gov.in",
+    "contact_webhook": null,
+    "escalation_parent_id": "district_magistrate_collectorate",
+    "is_active": true
+  },
+  {
+    "authority_id": "water_sewerage_board",
+    "name": "Urban Water Supply & Sewerage Board (Jal Board / HMWSSB / PHED)",
+    "tier": 1,
+    "jurisdiction_categories": ["water_leak", "sewage"],
+    "jurisdiction_wards": [],
+    "contact_email": "water.sewerage@jalboard.gov.in",
+    "contact_webhook": null,
+    "escalation_parent_id": "district_magistrate_collectorate",
+    "is_active": true
+  },
+  {
+    "authority_id": "sanitation_solid_waste",
+    "name": "Municipal Corporation — Sanitation & Solid Waste Department",
+    "tier": 1,
+    "jurisdiction_categories": ["garbage", "pollution"],
+    "jurisdiction_wards": [],
+    "contact_email": "sanitation@swachh.gov.in",
+    "contact_webhook": null,
+    "escalation_parent_id": "district_magistrate_collectorate",
+    "is_active": true
+  },
+  {
+    "authority_id": "power_discom_lighting",
+    "name": "State Electricity Distribution Company (DISCOM) & Municipal Streetlights",
+    "tier": 1,
+    "jurisdiction_categories": ["streetlight"],
+    "jurisdiction_wards": [],
+    "contact_email": "streetlights@discom.gov.in",
+    "contact_webhook": null,
+    "escalation_parent_id": "district_magistrate_collectorate",
+    "is_active": true
+  },
+  {
+    "authority_id": "horticulture_tree_authority",
+    "name": "Municipal Tree Authority & Horticulture Department",
+    "tier": 1,
+    "jurisdiction_categories": ["tree_hazard"],
+    "jurisdiction_wards": [],
+    "contact_email": "horticulture@municipal.gov.in",
+    "contact_webhook": null,
+    "escalation_parent_id": "district_magistrate_collectorate",
+    "is_active": true
+  },
+  {
+    "authority_id": "pollution_control_board",
+    "name": "Central & State Pollution Control Board (CPCB / SPCB)",
+    "tier": 1,
+    "jurisdiction_categories": ["pollution"],
+    "jurisdiction_wards": [],
+    "contact_email": "complaints@cpcb.nic.in",
+    "contact_webhook": null,
+    "escalation_parent_id": "district_magistrate_collectorate",
+    "is_active": true
+  },
+  {
+    "authority_id": "district_magistrate_collectorate",
+    "name": "District Magistrate / Collector Office & Disaster Management Authority (DDMA)",
+    "tier": 2,
+    "jurisdiction_categories": [
+      "road_damage",
+      "water_leak",
+      "sewage",
+      "garbage",
+      "streetlight",
+      "pollution",
+      "encroachment",
+      "tree_hazard",
+      "flood",
+      "other"
+    ],
+    "jurisdiction_wards": [],
+    "contact_email": "collector.office@gov.in",
+    "contact_webhook": null,
+    "escalation_parent_id": null,
+    "is_active": true
+  }
+]

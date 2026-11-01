@@ -1,0 +1,9 @@
+{
+  "issue_type": "water_leak",
+  "damage_features": ["burst municipal pipe", "water pooling across carriageway", "curb erosion"],
+  "hazard_indicators": ["drinking water wastage", "aquaplaning hazard", "road sub-base damage"],
+  "estimated_area_sqm": 15.0,
+  "confidence": 0.92,
+  "raw_description": "Pressurized drinking water pipeline rupture flooding main street with substantial water wastage and vehicle aquaplaning hazard."
+}
+

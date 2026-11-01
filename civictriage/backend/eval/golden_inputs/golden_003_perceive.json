@@ -1,0 +1,9 @@
+{
+  "issue_type": "streetlight",
+  "damage_features": ["bent streetlight pole", "shattered luminaire fixture", "dangling electrical cables"],
+  "hazard_indicators": ["exposed live wires", "zero nighttime illumination", "pedestrian electrocution hazard"],
+  "estimated_area_sqm": 4.0,
+  "confidence": 0.96,
+  "raw_description": "Damaged streetlight pole with dangling exposed live wires causing severe electrical shock hazard and total blackout."
+}
+

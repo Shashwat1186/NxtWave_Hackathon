@@ -1,0 +1,13 @@
+{
+  "report_id": "golden_002",
+  "file_path": "water_leak_main.jpg",
+  "raw_text": "Severe drinking water pipeline burst in Banjara Hills Road No 12, water flooding the street and wasted",
+  "gps_lat": 17.4156,
+  "gps_lng": 78.4350,
+  "expected": {
+    "category": "water_leak",
+    "severity_tier": "medium",
+    "authority_name": "HMWSSB — Hyderabad Metro Water Supply & Sewerage Board"
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "issue_type": "garbage",
+  "damage_features": ["overflowing open garbage dump", "commercial waste heaps", "fly infestation"],
+  "hazard_indicators": ["health epidemic risk", "footpath obstruction", "foul stench"],
+  "estimated_area_sqm": 8.0,
+  "confidence": 0.95,
+  "raw_description": "Massive uncollected garbage dump overflowing onto the market street with severe stench and disease transmission risk."
+}
+

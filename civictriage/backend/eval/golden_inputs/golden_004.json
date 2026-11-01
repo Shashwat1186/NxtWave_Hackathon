@@ -1,0 +1,13 @@
+{
+  "report_id": "golden_004",
+  "file_path": "garbage_overflow.jpg",
+  "raw_text": "Huge heap of uncollected solid waste and rotting garbage dumped in the middle of Charminar market road, breeding flies and blocking pedestrian traffic",
+  "gps_lat": 17.3616,
+  "gps_lng": 78.4747,
+  "expected": {
+    "category": "garbage",
+    "severity_tier": "medium",
+    "authority_name": "GHMC — Solid Waste Management & Sanitation Wing"
+  }
+}
+

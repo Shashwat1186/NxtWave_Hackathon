@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/civictriage/backend/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/civictriage/backend"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/civictriage/backend"
+  ],
+  "python.terminal.activateEnvironment": true
+}
+

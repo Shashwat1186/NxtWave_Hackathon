@@ -1,0 +1,9 @@
+{
+  "issue_type": "sewage",
+  "damage_features": ["blocked drainage manhole", "overflowing black wastewater", "pavement submergence"],
+  "hazard_indicators": ["bacterial disease transmission", "water contamination hazard", "severe urban foul odor"],
+  "estimated_area_sqm": 6.0,
+  "confidence": 0.93,
+  "raw_description": "Open manhole spewing foul black sewage water across busy commercial footpath and road."
+}
+

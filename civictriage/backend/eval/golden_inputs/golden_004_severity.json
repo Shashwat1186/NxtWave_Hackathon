@@ -1,0 +1,14 @@
+{
+  "hazard_type": "garbage_dumping",
+  "structural_risk": false,
+  "fire_risk": true,
+  "blocks_traffic": false,
+  "water_contamination_risk": false,
+  "near_pedestrians": true,
+  "estimated_area_sqm": 8.0,
+  "hazard_indicators": ["vector-borne disease breeding ground", "severe foul odor", "toxic smoke"],
+  "additional_hazards": ["vector-borne disease breeding ground", "severe foul odor", "toxic smoke"],
+  "damage_features": ["overflowing community dumpster", "scattered decomposing municipal waste"],
+  "confidence": 0.93
+}
+

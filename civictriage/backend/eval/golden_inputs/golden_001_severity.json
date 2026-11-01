@@ -1,0 +1,12 @@
+{
+  "hazard_type": "pothole_large",
+  "structural_risk": true,
+  "fire_risk": false,
+  "blocks_traffic": true,
+  "near_pedestrians": true,
+  "estimated_area_sqm": 2.5,
+  "hazard_indicators": ["risk of vehicle suspension damage", "motorcycle rollover hazard"],
+  "damage_features": ["cracked asphalt", "deep crater pothole"],
+  "confidence": 0.95
+}
+

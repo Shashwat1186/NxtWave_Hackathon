@@ -1,0 +1,938 @@
+[
+  {
+    "_id": "chk_collector_office_001",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "collector_office.md",
+    "text": "# Hyderabad District Collectorate & Disaster Management — Tier 2 Escalation Knowledge Base",
+    "metadata": {
+      "category": "flood",
+      "section": "General Standards",
+      "file": "collector_office.md"
+    },
+    "created_at": "2026-10-31T14:10:09.257380+00:00"
+  },
+  {
+    "_id": "chk_collector_office_002",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "collector_office.md",
+    "text": "Authority Overview: The Hyderabad District Collectorate serves as the apex revenue and disaster management authority for\nHyderabad District. It exercises supervisory oversight over municipal corporation bodies, water boards,\nand state utility undertakings under the Disaster Management Act 2005 and Telangana Revenue Administration Codes.",
+    "metadata": {
+      "category": "flood",
+      "section": "Authority Overview",
+      "file": "collector_office.md"
+    },
+    "created_at": "2026-10-31T14:10:09.257433+00:00"
+  },
+  {
+    "_id": "chk_collector_office_003",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "collector_office.md",
+    "text": "Jurisdiction & Coverage: - Tier 2 escalation for unaddressed or SLA-breached Tier 1 municipal grievances\n- Inter-departmental disputes between GHMC, HMWSSB, and TSSPDCL\n- Large-scale urban flooding, inundation, and seasonal monsoon emergency management\n- Encroachment on government land, water bodies (lakes/tanks/nalas), and public properties\n- Environmental pollution crises affecting multiple municipal wards",
+    "metadata": {
+      "category": "flood",
+      "section": "Jurisdiction & Coverage",
+      "file": "collector_office.md"
+    },
+    "created_at": "2026-10-31T14:10:09.257465+00:00"
+  },
+  {
+    "_id": "chk_collector_office_004",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "collector_office.md",
+    "text": "Statutory Citations & Charter Standards: - Disaster Management Act 2005, Section 30 (Powers and functions of District Disaster Management Authority)\n- Telangana Land Encroachment Act 1905, Section 6 (Eviction and summary forfeiture of unauthorized occupants)\n- Code of Criminal Procedure 1973, Section 133 (Conditional order for removal of public nuisance)",
+    "metadata": {
+      "category": "flood",
+      "section": "Statutory Citations & Charter Standards",
+      "file": "collector_office.md"
+    },
+    "created_at": "2026-10-31T14:10:09.257497+00:00"
+  },
+  {
+    "_id": "chk_collector_office_005",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "collector_office.md",
+    "text": "SLA & Escalation: - Critical (urban flood emergency, severe civic disruption): Immediate / 2 hours\n- Escalated Breaches: Mandatory administrative summons issued to Tier 1 department within 24 hours\n- Public Accountability: Publishing department default records on District Public Portal.",
+    "metadata": {
+      "category": "flood",
+      "section": "SLA & Escalation",
+      "file": "collector_office.md"
+    },
+    "created_at": "2026-10-31T14:10:09.257520+00:00"
+  },
+  {
+    "_id": "chk_collector_office_006",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "collector_office.md",
+    "text": "Contact: Email: collector.hyderabad@telangana.gov.in\nControl Room: 040-23202833",
+    "metadata": {
+      "category": "flood",
+      "section": "Contact",
+      "file": "collector_office.md"
+    },
+    "created_at": "2026-10-31T14:10:09.257530+00:00"
+  },
+  {
+    "_id": "chk_ghmc_horticulture_001",
+    "authority_id": "horticulture_tree_authority",
+    "source": "ghmc_horticulture.md",
+    "text": "# GHMC Urban Biodiversity & Horticulture — Tree Hazard Knowledge Base",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "General Standards",
+      "file": "ghmc_horticulture.md"
+    },
+    "created_at": "2026-10-31T14:10:09.257936+00:00"
+  },
+  {
+    "_id": "chk_ghmc_horticulture_002",
+    "authority_id": "horticulture_tree_authority",
+    "source": "ghmc_horticulture.md",
+    "text": "Authority Overview: The GHMC Directorate of Urban Biodiversity & Horticulture has exclusive legal authority over\nthe preservation, maintenance, pruning, and emergency clearance of trees and green cover in\npublic rights-of-way, parks, and road medians across Hyderabad.",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "Authority Overview",
+      "file": "ghmc_horticulture.md"
+    },
+    "created_at": "2026-10-31T14:10:09.257964+00:00"
+  },
+  {
+    "_id": "chk_ghmc_horticulture_003",
+    "authority_id": "horticulture_tree_authority",
+    "source": "ghmc_horticulture.md",
+    "text": "Jurisdiction & Coverage: - Fallen trees obstructing traffic, vehicular movement, or footpaths\n- Dangerous leaning branches threatening electrical lines, roofs, or pedestrians\n- Overgrown foliage obstructing street visibility, signals, or streetlights\n- Dead or termite-infested trees in public spaces requiring emergency felling",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "Jurisdiction & Coverage",
+      "file": "ghmc_horticulture.md"
+    },
+    "created_at": "2026-10-31T14:10:09.257989+00:00"
+  },
+  {
+    "_id": "chk_ghmc_horticulture_004",
+    "authority_id": "horticulture_tree_authority",
+    "source": "ghmc_horticulture.md",
+    "text": "Statutory Citations & Charter Standards: - Telangana Water, Land and Trees Act (WALTA) 2002, Section 28 (Tree protection and pruning guidelines)\n- GHMC Citizen Charter 2024: Emergency road obstruction clearance by Disaster Response Force (DRF) within 2 hours.",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "Statutory Citations & Charter Standards",
+      "file": "ghmc_horticulture.md"
+    },
+    "created_at": "2026-10-31T14:10:09.258010+00:00"
+  },
+  {
+    "_id": "chk_ghmc_horticulture_005",
+    "authority_id": "horticulture_tree_authority",
+    "source": "ghmc_horticulture.md",
+    "text": "SLA & Escalation: - Critical (tree fallen across major road or live wire): 2 hours (DRF dispatch)\n- High (heavy branch cracked hanging over pedestrian path): 12 hours\n- Medium (routine pruning for streetlight illumination): 72 hours\n- Escalation: Escalates to Director of Urban Biodiversity.",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "SLA & Escalation",
+      "file": "ghmc_horticulture.md"
+    },
+    "created_at": "2026-10-31T14:10:09.258034+00:00"
+  },
+  {
+    "_id": "chk_ghmc_horticulture_006",
+    "authority_id": "horticulture_tree_authority",
+    "source": "ghmc_horticulture.md",
+    "text": "Contact: Email: horticulture@ghmc.gov.in\nEmergency DRF: 040-29555500",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "Contact",
+      "file": "ghmc_horticulture.md"
+    },
+    "created_at": "2026-10-31T14:10:09.258047+00:00"
+  },
+  {
+    "_id": "chk_ghmc_roads_001",
+    "authority_id": "roads_highways_ulb",
+    "source": "ghmc_roads.md",
+    "text": "Authority Overview: The Greater Hyderabad Municipal Corporation (GHMC) Roads & Buildings Department\nis responsible for the construction, maintenance, and repair of all roads,\nfootpaths, bridges, and flyovers within the GHMC limits in Hyderabad, Telangana.",
+    "metadata": {
+      "category": "road_damage",
+      "section": "Authority Overview",
+      "file": "ghmc_roads.md"
+    },
+    "created_at": "2026-10-31T14:10:09.280752+00:00"
+  },
+  {
+    "_id": "chk_ghmc_roads_002",
+    "authority_id": "roads_highways_ulb",
+    "source": "ghmc_roads.md",
+    "text": "Jurisdiction: - All roads classified as municipal roads within GHMC limits\n- Internal roads in residential layouts approved by GHMC\n- Footpaths and pedestrian infrastructure\n- Road drainage and stormwater drains along roads\n- Road markings, signage, and barriers\n- Bridges and culverts within GHMC limits",
+    "metadata": {
+      "category": "road_damage",
+      "section": "Jurisdiction",
+      "file": "ghmc_roads.md"
+    },
+    "created_at": "2026-10-31T14:10:09.280818+00:00"
+  },
+  {
+    "_id": "chk_ghmc_roads_003",
+    "authority_id": "roads_highways_ulb",
+    "source": "ghmc_roads.md",
+    "text": "Issue Categories Handled: - Pothole repairs (small, medium, large)\n- Road surface damage (cracking, subsidence, rutting)\n- Damaged footpaths and curb stones\n- Road drainage blockages\n- Encroachments on road margins\n- Illegal structures on footpaths",
+    "metadata": {
+      "category": "road_damage",
+      "section": "Issue Categories Handled",
+      "file": "ghmc_roads.md"
+    },
+    "created_at": "2026-10-31T14:10:09.280857+00:00"
+  },
+  {
+    "_id": "chk_ghmc_roads_004",
+    "authority_id": "roads_highways_ulb",
+    "source": "ghmc_roads.md",
+    "text": "Escalation: - Ward-level complaints are handled at the ward office (Tier 1)\n- Unresolved complaints after 24 hours escalate to the zonal office (Tier 2)\n- State-highway-class roads are under NHAI or HMDA jurisdiction, not GHMC",
+    "metadata": {
+      "category": "road_damage",
+      "section": "Escalation",
+      "file": "ghmc_roads.md"
+    },
+    "created_at": "2026-10-31T14:10:09.280894+00:00"
+  },
+  {
+    "_id": "chk_ghmc_roads_005",
+    "authority_id": "roads_highways_ulb",
+    "source": "ghmc_roads.md",
+    "text": "SLA Commitments: - Critical (major road damage, traffic hazard): 4 hours\n- High (significant pothole, drainage issue): 24 hours\n- Medium (footpath damage, minor road issue): 72 hours\n- Low (cosmetic damage, minor encroachment notice): 168 hours",
+    "metadata": {
+      "category": "road_damage",
+      "section": "SLA Commitments",
+      "file": "ghmc_roads.md"
+    },
+    "created_at": "2026-10-31T14:10:09.280931+00:00"
+  },
+  {
+    "_id": "chk_ghmc_roads_006",
+    "authority_id": "roads_highways_ulb",
+    "source": "ghmc_roads.md",
+    "text": "Contact: Email: roads@ghmc.gov.in\nHelpline: 040-21111111\nOnline: https://ghmc.gov.in/grievances",
+    "metadata": {
+      "category": "road_damage",
+      "section": "Contact",
+      "file": "ghmc_roads.md"
+    },
+    "created_at": "2026-10-31T14:10:09.280950+00:00"
+  },
+  {
+    "_id": "chk_ghmc_sanitation_001",
+    "authority_id": "sanitation_solid_waste",
+    "source": "ghmc_sanitation.md",
+    "text": "# GHMC Sanitation & Solid Waste Management — Jurisdiction Knowledge Base",
+    "metadata": {
+      "category": "garbage",
+      "section": "General Standards",
+      "file": "ghmc_sanitation.md"
+    },
+    "created_at": "2026-10-31T14:10:09.281844+00:00"
+  },
+  {
+    "_id": "chk_ghmc_sanitation_002",
+    "authority_id": "sanitation_solid_waste",
+    "source": "ghmc_sanitation.md",
+    "text": "Authority Overview: The Greater Hyderabad Municipal Corporation (GHMC) Directorate of Sanitation and Solid Waste Management\nis mandated under the Telangana Municipalities Act 2019 and Solid Waste Management Rules 2016 to oversee\ncollection, segregation, transportation, and scientific disposal of municipal solid waste across Hyderabad.",
+    "metadata": {
+      "category": "garbage",
+      "section": "Authority Overview",
+      "file": "ghmc_sanitation.md"
+    },
+    "created_at": "2026-10-31T14:10:09.281912+00:00"
+  },
+  {
+    "_id": "chk_ghmc_sanitation_003",
+    "authority_id": "sanitation_solid_waste",
+    "source": "ghmc_sanitation.md",
+    "text": "Jurisdiction & Coverage: - All public street waste bins, community dumpsters, and dumper placers\n- Commercial and residential roadside garbage cleaning and sweeping\n- Construction and demolition (C&D) waste dumping along public right-of-ways\n- Public urination/defecation spots, bio-toilet maintenance\n- Dead animal carcass disposal and biohazard cleanup\n- Illegal garbage burning on roadsides, vacant plots, and stormwater drains",
+    "metadata": {
+      "category": "garbage",
+      "section": "Jurisdiction & Coverage",
+      "file": "ghmc_sanitation.md"
+    },
+    "created_at": "2026-10-31T14:10:09.281967+00:00"
+  },
+  {
+    "_id": "chk_ghmc_sanitation_004",
+    "authority_id": "sanitation_solid_waste",
+    "source": "ghmc_sanitation.md",
+    "text": "Statutory Citations & Charter Standards: - Telangana Municipalities Act 2019, Section 154 (Duty to clean streets and collect waste)\n- Solid Waste Management Rules 2016, Rule 15 (Duties and responsibilities of local authorities)\n- GHMC Citizen Charter 2024: Mandatory clearance of overflowing community bins within 12 hours.",
+    "metadata": {
+      "category": "garbage",
+      "section": "Statutory Citations & Charter Standards",
+      "file": "ghmc_sanitation.md"
+    },
+    "created_at": "2026-10-31T14:10:09.282014+00:00"
+  },
+  {
+    "_id": "chk_ghmc_sanitation_005",
+    "authority_id": "sanitation_solid_waste",
+    "source": "ghmc_sanitation.md",
+    "text": "SLA & Escalation: - Critical (biohazard waste, dead animal, burning garbage near schools): 4 hours\n- High (overflowing dumpster blocking traffic/pavement): 12 hours\n- Medium (routine sweeping complaint, uncollected door-to-door trash): 24 hours\n- Escalation: Unresolved ward complaints escalate to Zonal Additional Commissioner (Sanitation).",
+    "metadata": {
+      "category": "garbage",
+      "section": "SLA & Escalation",
+      "file": "ghmc_sanitation.md"
+    },
+    "created_at": "2026-10-31T14:10:09.282059+00:00"
+  },
+  {
+    "_id": "chk_ghmc_sanitation_006",
+    "authority_id": "sanitation_solid_waste",
+    "source": "ghmc_sanitation.md",
+    "text": "Contact: Email: sanitation@ghmc.gov.in\nHelpline: 040-21111111 / 1800-425-4567",
+    "metadata": {
+      "category": "garbage",
+      "section": "Contact",
+      "file": "ghmc_sanitation.md"
+    },
+    "created_at": "2026-10-31T14:10:09.282077+00:00"
+  },
+  {
+    "_id": "chk_hmwssb_water_001",
+    "authority_id": "water_sewerage_board",
+    "source": "hmwssb_water.md",
+    "text": "Authority Overview: The Hyderabad Metropolitan Water Supply & Sewerage Board (HMWSSB) is responsible\nfor providing safe drinking water and sewerage services to the Hyderabad metropolitan\narea. It handles all water main issues, pipeline leaks, and sewerage infrastructure.",
+    "metadata": {
+      "category": "water_leak",
+      "section": "Authority Overview",
+      "file": "hmwssb_water.md"
+    },
+    "created_at": "2026-10-31T14:10:09.291241+00:00"
+  },
+  {
+    "_id": "chk_hmwssb_water_002",
+    "authority_id": "water_sewerage_board",
+    "source": "hmwssb_water.md",
+    "text": "Jurisdiction: - Water supply pipelines and distribution networks\n- Water mains (transmission lines and distribution mains)\n- Overhead tanks and sump maintenance\n- Sewerage networks and trunk sewers\n- Sewage treatment plants\n- Septic tank clearance on public land",
+    "metadata": {
+      "category": "water_leak",
+      "section": "Jurisdiction",
+      "file": "hmwssb_water.md"
+    },
+    "created_at": "2026-10-31T14:10:09.291277+00:00"
+  },
+  {
+    "_id": "chk_hmwssb_water_003",
+    "authority_id": "water_sewerage_board",
+    "source": "hmwssb_water.md",
+    "text": "Issue Categories Handled: - Water main bursts and pipeline leaks\n- Low water pressure or supply disruptions\n- Sewage overflow onto roads or public spaces\n- Blocked or collapsed sewer lines\n- Contaminated water supply complaints\n- Illegal water connections",
+    "metadata": {
+      "category": "water_leak",
+      "section": "Issue Categories Handled",
+      "file": "hmwssb_water.md"
+    },
+    "created_at": "2026-10-31T14:10:09.291304+00:00"
+  },
+  {
+    "_id": "chk_hmwssb_water_004",
+    "authority_id": "water_sewerage_board",
+    "source": "hmwssb_water.md",
+    "text": "Escalation: - Emergency leaks (water main burst) have a 4-hour response SLA\n- Non-emergency complaints escalate to divisional engineer after 24 hours\n- Contamination complaints are immediately escalated to health authorities",
+    "metadata": {
+      "category": "water_leak",
+      "section": "Escalation",
+      "file": "hmwssb_water.md"
+    },
+    "created_at": "2026-10-31T14:10:09.291327+00:00"
+  },
+  {
+    "_id": "chk_hmwssb_water_005",
+    "authority_id": "water_sewerage_board",
+    "source": "hmwssb_water.md",
+    "text": "SLA Commitments: - Critical (water main burst, sewage overflow on road): 4 hours\n- High (significant leak, supply outage): 24 hours\n- Medium (low pressure, minor leak): 72 hours\n- Low (billing dispute, minor query): 168 hours",
+    "metadata": {
+      "category": "water_leak",
+      "section": "SLA Commitments",
+      "file": "hmwssb_water.md"
+    },
+    "created_at": "2026-10-31T14:10:09.291357+00:00"
+  },
+  {
+    "_id": "chk_hmwssb_water_006",
+    "authority_id": "water_sewerage_board",
+    "source": "hmwssb_water.md",
+    "text": "Contact: Email: complaints@hmwssb.gov.in\nHelpline: 040-23455555\nEmergency: 1800-425-1920 (toll free)",
+    "metadata": {
+      "category": "water_leak",
+      "section": "Contact",
+      "file": "hmwssb_water.md"
+    },
+    "created_at": "2026-10-31T14:10:09.291371+00:00"
+  },
+  {
+    "_id": "chk_india_district_administration_and_disaster_management_001",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "india_district_administration_and_disaster_management.md",
+    "text": "# Pan-India District Administration & Disaster Management — Tier 2 Escalation Knowledge Base",
+    "metadata": {
+      "category": "flood",
+      "section": "General Standards",
+      "file": "india_district_administration_and_disaster_management.md"
+    },
+    "created_at": "2026-10-31T14:10:09.291952+00:00"
+  },
+  {
+    "_id": "chk_india_district_administration_and_disaster_management_002",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "india_district_administration_and_disaster_management.md",
+    "text": "National Authority Architecture (All India): Administrative coordination, multi-department grievance escalation, magisterial enforcement, public nuisance abatement, and disaster response across all 780+ districts of India are headed by:\n1. **District Magistrate (DM) / Deputy Commissioner (DC) / District Collector**: The apex executive head of civil and revenue administration in every Indian district. Exercises supervisory jurisdiction over Municipal Corporations, Municipalities, Zilla Parishads, PWD, DISCOMs, Police, and Water Undertakings.\n2. **District Disaster Management Authority (DDMA)**: Constituted in every district under the national Disaster Management Act 2005, chaired by the District Magistrate, responsible for emergency response, flood prevention, and crisis management.\n3. **Sub-Divisional Magistrate (SDM) / Revenue Divisional Officer (RDO)**: Sub-district administrative authority holding magisterial powers for summary abatement of public nuisances.",
+    "metadata": {
+      "category": "flood",
+      "section": "National Authority Architecture (All India)",
+      "file": "india_district_administration_and_disaster_management.md"
+    },
+    "created_at": "2026-10-31T14:10:09.292042+00:00"
+  },
+  {
+    "_id": "chk_india_district_administration_and_disaster_management_003",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "india_district_administration_and_disaster_management.md",
+    "text": "Scope of Grievances Handled: - **Tier 2 Administrative Escalation**: Unaddressed, delayed, or SLA-breached Tier 1 municipal grievances where line agencies (ULB, Jal Board, DISCOM, PWD) fail to act within statutory deadlines\n- Inter-departmental coordination conflicts (e.g., Road cut dispute between Water Board and Municipal Corporation; cable laying disputes)\n- Catastrophic urban flooding, monsoon waterlogging, flash floods, dam discharge alerts, and structural building/bridge collapse risks\n- Massive encroachments on Government revenue land, national highways, railway margins, natural water bodies (lakes, tanks, cheruvus, wetlands, and nalas)\n- Systemic environmental public health emergencies affecting multiple municipal wards or contiguous rural-urban fringes",
+    "metadata": {
+      "category": "flood",
+      "section": "Scope of Grievances Handled",
+      "file": "india_district_administration_and_disaster_management.md"
+    },
+    "created_at": "2026-10-31T14:10:09.292100+00:00"
+  },
+  {
+    "_id": "chk_india_district_administration_and_disaster_management_004",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "india_district_administration_and_disaster_management.md",
+    "text": "All-India Statutory Acts, Legal Codes & Technical Standards: - **Disaster Management Act 2005 (Union Legislation — Section 30 & Section 34)**:\n - *Section 30*: DDMA empowered to direct any government department, urban local body, or utility agency to take emergency preventive and remedial measures for public safety.\n - *Section 34*: District Magistrate empowered to commandeer resources, evacuate vulnerable populations, and order immediate demolition of hazardous structures.\n - *Section 51*: Penal provisions (imprisonment up to 2 years) for obstructing or failing to comply with directions of the Disaster Management Authority.\n- **Code of Criminal Procedure 1973 (CrPC § 133) / Bharatiya Nagarik Suraksha Sanhita (BNSS) 2023 (§ 152)**:\n - Grants summary magisterial power to the District Magistrate or Sub-Divisional Magistrate to pass conditional orders for the immediate removal of any unlawful obstruction, danger, or public nuisance from any public roadway, river, or water channel.\n - Non-compliance constitutes a criminal offense under Section 188 of the Indian Penal Code (IPC) / Section 223 BNS.\n- **Public Liability Insurance Act 1991**: Mandatory relief and compensation mechanisms for accidents arising from handling hazardous substances.\n- **State Land Encroachment and Water Bodies Protection Legislation**:\n - Direct statutory duty on District Collectors to order eviction of unauthorized encroachers from floodplains, lake catchment zones, and drainage channels.",
+    "metadata": {
+      "category": "flood",
+      "section": "All-India Statutory Acts, Legal Codes & Technical Standards",
+      "file": "india_district_administration_and_disaster_management.md"
+    },
+    "created_at": "2026-10-31T14:10:09.292252+00:00"
+  },
+  {
+    "_id": "chk_india_district_administration_and_disaster_management_005",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "india_district_administration_and_disaster_management.md",
+    "text": "SLA Commitments & Escalation Matrix: - **Critical (Urban flood emergency, breach of lake bund, structural building collapse, mass public hazard)**: **Immediate / 2 Hours** (Emergency DDMA deployment, NDRF / SDRF dispatch).\n- **Escalated Tier 1 Breaches**: When a municipal ticket exceeds its SLA deadline (4h for Critical, 24h for High), the autonomous SLA system issues an administrative summons to the parent agency within **24 Hours**.\n- **Public Default Branding**: Defaulting departments are flagged publicly on the District Dashboard for institutional accountability.",
+    "metadata": {
+      "category": "flood",
+      "section": "SLA Commitments & Escalation Matrix",
+      "file": "india_district_administration_and_disaster_management.md"
+    },
+    "created_at": "2026-10-31T14:10:09.292315+00:00"
+  },
+  {
+    "_id": "chk_india_district_administration_and_disaster_management_006",
+    "authority_id": "district_magistrate_collectorate",
+    "source": "india_district_administration_and_disaster_management.md",
+    "text": "Authority Directory Routing: - Primary Escalation Authority: Office of the District Magistrate & District Disaster Management Authority (DDMA)\n- National Emergency Response Number: **112** (Universal Emergency Response Support System - ERSS across India).",
+    "metadata": {
+      "category": "flood",
+      "section": "Authority Directory Routing",
+      "file": "india_district_administration_and_disaster_management.md"
+    },
+    "created_at": "2026-10-31T14:10:09.292340+00:00"
+  },
+  {
+    "_id": "chk_india_electricity_and_streetlighting_001",
+    "authority_id": "power_discom_lighting",
+    "source": "india_electricity_and_streetlighting.md",
+    "text": "# Pan-India Electricity Distribution & Streetlighting — Statutory Jurisdiction Knowledge Base",
+    "metadata": {
+      "category": "streetlight",
+      "section": "General Standards",
+      "file": "india_electricity_and_streetlighting.md"
+    },
+    "created_at": "2026-10-31T14:10:09.292795+00:00"
+  },
+  {
+    "_id": "chk_india_electricity_and_streetlighting_002",
+    "authority_id": "power_discom_lighting",
+    "source": "india_electricity_and_streetlighting.md",
+    "text": "National Authority Architecture (All India): Public road illumination, electrical distribution safety, and low-tension utility assets across all States and Union Territories of India are partitioned into:\n1. **State Power Distribution Companies (DISCOMs)**: Public and private power distribution licensees operating under state electricity regulatory commissions (SERCs) — e.g., BESCOM (Karnataka), MSEDCL / Adani / Tata (Maharashtra), TANGEDCO (Tamil Nadu), UPPCL (Uttar Pradesh), BSES / TPDDL (Delhi), WBSEDCL (West Bengal), TSSPDCL / TSNPDCL (Telangana), PSPCL (Punjab), APDCL (Assam). Responsible for poles, conductors, transformers, and electrical supply.\n2. **Municipal Corporation Electrical & Public Lighting Wings**: Responsible for luminaires, CCMS automated streetlight control panels, LED fixtures, timer switches, and high-mast decorative lights on city roads under Energy Efficiency Services Limited (EESL) national agreements.",
+    "metadata": {
+      "category": "streetlight",
+      "section": "National Authority Architecture (All India)",
+      "file": "india_electricity_and_streetlighting.md"
+    },
+    "created_at": "2026-10-31T14:10:09.292879+00:00"
+  },
+  {
+    "_id": "chk_india_electricity_and_streetlighting_003",
+    "authority_id": "power_discom_lighting",
+    "source": "india_electricity_and_streetlighting.md",
+    "text": "Scope of Grievances Handled: - Dark road stretches, unlit streets, and broken LED luminaires creating pedestrian safety hazards\n- High-mast lighting failure at busy city intersections, traffic roundabouts, and flyover approaches\n- Snapped, fallen, or sagging overhead 230V/415V low-tension or 11kV high-tension power cables lying on public streets\n- Leaning, damaged, or vehicular-impacted electrical poles at risk of collapsing onto vehicles or pedestrians\n- Sparking distribution transformer (DTR) centers, open feeder pillar boxes, exposed underground cable joints, and missing grounding wire\n- Electrical shocks or stray voltage reported on municipal poles, handrails, or waterlogged monsoon streets",
+    "metadata": {
+      "category": "streetlight",
+      "section": "Scope of Grievances Handled",
+      "file": "india_electricity_and_streetlighting.md"
+    },
+    "created_at": "2026-10-31T14:10:09.292934+00:00"
+  },
+  {
+    "_id": "chk_india_electricity_and_streetlighting_004",
+    "authority_id": "power_discom_lighting",
+    "source": "india_electricity_and_streetlighting.md",
+    "text": "All-India Statutory Acts, Legal Codes & Technical Standards: - **The Electricity Act 2003 (Union Legislation — Applicable to All India)**:\n - *Section 53*: Direct statutory mandate requiring all distribution licensees to comply with safety regulations to protect the public from personal injury and fire hazards.\n - *Section 68*: Rules governing overhead lines; mandatory clearances from roads, buildings, and ground levels.\n - *Section 161*: Mandatory reporting of electrical accidents, investigation, and immediate penal action for negligence.\n- **Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations 2010**:\n - *Regulation 29*: Mandatory periodic inspection, earthing, and insulation testing of overhead lines and cables.\n - *Regulation 36*: Earth leakage circuit breaker (ELCB) / Residual Current Device (RCD) mandate for public installations.\n - *Regulation 73*: Mandatory minimum vertical clearance of conductors passing along or across any public street (minimum 5.8m for high-voltage lines, 5.5m for low-voltage lines).\n- **National Lighting Code of India (Bureau of Indian Standards SP 72:2010)**: Specifications for public roadway illuminance levels (M1 to M5 categories) to ensure accident reduction and crime prevention.\n- **Ministry of Housing & Urban Affairs (MoHUA) Safe City Standards**: Mandatory uninterrupted illumination along public transport hubs, bus shelters, and designated women safety transit corridors.",
+    "metadata": {
+      "category": "streetlight",
+      "section": "All-India Statutory Acts, Legal Codes & Technical Standards",
+      "file": "india_electricity_and_streetlighting.md"
+    },
+    "created_at": "2026-10-31T14:10:09.293059+00:00"
+  },
+  {
+    "_id": "chk_india_electricity_and_streetlighting_005",
+    "authority_id": "power_discom_lighting",
+    "source": "india_electricity_and_streetlighting.md",
+    "text": "SLA Commitments & Escalation Matrix: - **Critical (Snapped live overhead conductor, pole collapse hazard, sparking transformer, electrified pole on flooded road)**: **2 Hours** (Emergency feeder tripping, line disconnection, and site cordoning).\n- **High (Multiple consecutive non-functional streetlights on arterial/transit corridor or women transit path)**: **24 Hours**.\n- **Medium (Single isolated LED streetlight fixture fault in residential layout)**: **48 Hours**.\n- **Low (Aesthetic pole realignment, cable trench backfilling)**: **120 Hours (5 Days)**.\n- **Escalation**: Unresolved complaints escalate to Assistant Engineer (Electrical) -> Divisional Engineer -> Superintending Engineer (DISCOM) -> State Electrical Inspectorate.",
+    "metadata": {
+      "category": "streetlight",
+      "section": "SLA Commitments & Escalation Matrix",
+      "file": "india_electricity_and_streetlighting.md"
+    },
+    "created_at": "2026-10-31T14:10:09.293122+00:00"
+  },
+  {
+    "_id": "chk_india_electricity_and_streetlighting_006",
+    "authority_id": "power_discom_lighting",
+    "source": "india_electricity_and_streetlighting.md",
+    "text": "Authority Directory Routing: - Primary Authority: State Electricity Distribution Company (DISCOM) & Municipal Electrical Wing\n- Pan-India Power Consumer Helpline: **1912** (Universal toll-free emergency electricity complaint number active across all Indian states).",
+    "metadata": {
+      "category": "streetlight",
+      "section": "Authority Directory Routing",
+      "file": "india_electricity_and_streetlighting.md"
+    },
+    "created_at": "2026-10-31T14:10:09.293144+00:00"
+  },
+  {
+    "_id": "chk_india_environmental_pollution_001",
+    "authority_id": "pollution_control_board",
+    "source": "india_environmental_pollution.md",
+    "text": "# Pan-India Environmental Pollution & Industrial Hazards — Statutory Jurisdiction Knowledge Base",
+    "metadata": {
+      "category": "pollution",
+      "section": "General Standards",
+      "file": "india_environmental_pollution.md"
+    },
+    "created_at": "2026-10-31T14:10:09.293639+00:00"
+  },
+  {
+    "_id": "chk_india_environmental_pollution_002",
+    "authority_id": "pollution_control_board",
+    "source": "india_environmental_pollution.md",
+    "text": "National Authority Architecture (All India): Environmental protection, industrial pollution monitoring, hazardous waste management, and ambient air and water quality enforcement across all States and Union Territories of India are overseen by:\n1. **Central Pollution Control Board (CPCB)**: Apex national statutory organization under the Ministry of Environment, Forest and Climate Change (MoEFCC). Sets nationwide ambient standards, coordinates interstate pollution management, and operates the National Air Quality Index (NAQI) monitoring network.\n2. **State Pollution Control Boards (SPCBs) / Pollution Control Committees (PCCs)**: Statutory regulatory bodies in each state (e.g. DPCC Delhi, MPCB Maharashtra, KSPCB Karnataka, TNPCB Tamil Nadu, WBPCB West Bengal, TSPCB Telangana, UPPCB Uttar Pradesh). Responsible for inspecting factories, granting/revoking Consent to Establish (CTE) & Consent to Operate (CTO), and monitoring industrial discharges.\n3. **National Green Tribunal (NGT)**: Dedicated national judicial body established under the NGT Act 2010 with jurisdiction over environmental disputes and enforcement of civil compensation.",
+    "metadata": {
+      "category": "pollution",
+      "section": "National Authority Architecture (All India)",
+      "file": "india_environmental_pollution.md"
+    },
+    "created_at": "2026-10-31T14:10:09.293720+00:00"
+  },
+  {
+    "_id": "chk_india_environmental_pollution_003",
+    "authority_id": "pollution_control_board",
+    "source": "india_environmental_pollution.md",
+    "text": "Scope of Grievances Handled: - Illegal untreated industrial effluent discharge into storm drains, natural lakes, rivers, or agricultural fields\n- Toxic industrial air emissions, black chimney smoke, unauthorized chemical furnace emissions, and burning of hazardous waste\n- Severe illegal industrial noise pollution exceeding statutory decibel limits during night hours near residential areas and silence zones\n- Illegal dumping, transport, or clandestine burial of hazardous chemical sludge, spent solvents, or e-waste\n- Unlicensed polluting micro-enterprises (plastic shredding, battery recycling, electroplating) operating unlawfully within residential colonies",
+    "metadata": {
+      "category": "pollution",
+      "section": "Scope of Grievances Handled",
+      "file": "india_environmental_pollution.md"
+    },
+    "created_at": "2026-10-31T14:10:09.293764+00:00"
+  },
+  {
+    "_id": "chk_india_environmental_pollution_004",
+    "authority_id": "pollution_control_board",
+    "source": "india_environmental_pollution.md",
+    "text": "All-India Statutory Acts, Legal Codes & Technical Standards: - **Constitution of India — Article 48A & 21**: Fundamental Right to a clean, pollution-free, and healthy environment (*M.C. Mehta v. Union of India* - Oleum Gas Leak & Taj Trapezium cases).\n- **The Air (Prevention and Control of Pollution) Act 1981 (Union Legislation)**:\n - *Section 19*: Declaration of Air Pollution Control Areas across entire states.\n - *Section 21*: Mandatory requirement of previous consent before operating any industrial plant.\n - *Section 31A*: Power to issue binding directions including closure of unit or stoppage of electricity/water supply.\n- **The Water (Prevention and Control of Pollution) Act 1974 (Union Legislation)**:\n - *Section 24*: Prohibition on use of stream or well for disposal of polluting matter.\n - *Section 33A*: Power to order immediate disconnection of power and water to defaulting factories.\n- **The Environment (Protection) Act 1986 (Union Framework Legislation)**:\n - *Section 3*: Power of Central Government to take measures to protect and improve the environment.\n - *Section 15*: Criminal penalties (imprisonment up to 5 years and fines) for violation of environmental rules.\n- **Hazardous and Other Wastes (Management and Transboundary Movement) Rules 2016**: Strict tracking of hazardous chemical waste manifests and mandatory disposal in authorized Treatment, Storage and Disposal Facilities (TSDF).\n- **Noise Pollution (Regulation and Control) Rules 2000**: Decibel limits in industrial (75dB), commercial (65dB), residential (55dB), and silence zones (50dB).",
+    "metadata": {
+      "category": "pollution",
+      "section": "All-India Statutory Acts, Legal Codes & Technical Standards",
+      "file": "india_environmental_pollution.md"
+    },
+    "created_at": "2026-10-31T14:10:09.293884+00:00"
+  },
+  {
+    "_id": "chk_india_environmental_pollution_005",
+    "authority_id": "pollution_control_board",
+    "source": "india_environmental_pollution.md",
+    "text": "SLA Commitments & Escalation Matrix: - **Critical (Acute toxic chemical leak, direct discharge into municipal drinking water source, illegal chemical fire)**: **2 Hours** (Emergency inspection and police seizure).\n- **High (Illegal industrial effluent pumping into stormwater nala, hazardous black smoke in residential zone)**: **12 Hours**.\n- **Medium (Noise pollution from diesel generator sets, localized commercial dust emission)**: **48 Hours**.\n- **Low (Stack emission compliance verification, consent certificate verification)**: **168 Hours (7 Days)**.\n- **Escalation**: Unresolved complaints escalate to Regional Officer (SPCB) -> Member Secretary -> Chairman (SPCB) -> National Green Tribunal (NGT) Principal Bench.",
+    "metadata": {
+      "category": "pollution",
+      "section": "SLA Commitments & Escalation Matrix",
+      "file": "india_environmental_pollution.md"
+    },
+    "created_at": "2026-10-31T14:10:09.293929+00:00"
+  },
+  {
+    "_id": "chk_india_environmental_pollution_006",
+    "authority_id": "pollution_control_board",
+    "source": "india_environmental_pollution.md",
+    "text": "Authority Directory Routing: - Primary Authority: State Pollution Control Board (SPCB) / Central Pollution Control Board (CPCB) Regional Directorate\n- Central Portal: CPCB SAMEER App & National Clean Air Programme (NCAP) grievance redressal interface.",
+    "metadata": {
+      "category": "pollution",
+      "section": "Authority Directory Routing",
+      "file": "india_environmental_pollution.md"
+    },
+    "created_at": "2026-10-31T14:10:09.293950+00:00"
+  },
+  {
+    "_id": "chk_india_roads_and_highways_001",
+    "authority_id": "roads_highways_ulb",
+    "source": "india_roads_and_highways.md",
+    "text": "# Pan-India Municipal Roads & Highways — Statutory Jurisdiction Knowledge Base",
+    "metadata": {
+      "category": "road_damage",
+      "section": "General Standards",
+      "file": "india_roads_and_highways.md"
+    },
+    "created_at": "2026-10-31T14:10:09.294537+00:00"
+  },
+  {
+    "_id": "chk_india_roads_and_highways_002",
+    "authority_id": "roads_highways_ulb",
+    "source": "india_roads_and_highways.md",
+    "text": "National Authority Architecture (All India): Road infrastructure across all States and Union Territories of India is partitioned into three distinct statutory tiers:\n1. **Urban Local Bodies (ULBs / Municipal Corporations / Nagar Nigams / Municipalities)**: Responsible for all municipal roads, internal colony streets, sub-arterial corridors, footpaths, pedestrian subways, and municipal bridges under the 74th Constitutional Amendment (12th Schedule).\n2. **National Highways Authority of India (NHAI) / MoRTH**: Statutory authority for all National Highways, Expressways, and bypasses under the National Highways Act 1956.\n3. **State Public Works Departments (State PWD)**: Responsible for State Highways, Major District Roads (MDR), and Other District Roads (ODR).",
+    "metadata": {
+      "category": "road_damage",
+      "section": "National Authority Architecture (All India)",
+      "file": "india_roads_and_highways.md"
+    },
+    "created_at": "2026-10-31T14:10:09.294605+00:00"
+  },
+  {
+    "_id": "chk_india_roads_and_highways_003",
+    "authority_id": "roads_highways_ulb",
+    "source": "india_roads_and_highways.md",
+    "text": "Scope of Grievances Handled: - Pothole repair, cratering, and asphalt resurfacing (small, medium, deep sinkholes)\n- Road structural failure, pavement subsidence, rutting, and water-induced cavitation\n- Damaged, broken, or missing pedestrian footpath slabs and curb stones\n- Roadside stormwater drainage grates broken, missing, or blocked causing road flooding\n- Unauthorized commercial and vendor encroachments on road right-of-ways and footpaths\n- Damaged median barriers, missing crash barriers, and non-reflective signage on accident-prone stretches",
+    "metadata": {
+      "category": "road_damage",
+      "section": "Scope of Grievances Handled",
+      "file": "india_roads_and_highways.md"
+    },
+    "created_at": "2026-10-31T14:10:09.294647+00:00"
+  },
+  {
+    "_id": "chk_india_roads_and_highways_004",
+    "authority_id": "roads_highways_ulb",
+    "source": "india_roads_and_highways.md",
+    "text": "All-India Statutory Acts, Legal Codes & Technical Standards: - **Constitution of India — 74th Amendment Act (12th Schedule, Entry 4)**: Constitutional mandate placing urban roads, bridges, and footpaths under municipal bodies.\n- **Motor Vehicles Act 1988 (as amended 2019), Section 198A**: Strict statutory liability imposed on designated municipal authorities, highway engineers, and contractors for failure to maintain road design and safety standards resulting in accidents or injury.\n- **National Highways Act 1956 & Control of National Highways (Land and Traffic) Act 2002**: Exclusive authority over National Highway corridors and prohibition of unauthorized road cuts and encroachments.\n- **Indian Roads Congress Standards (IRC:82 & IRC:SP:72)**: National technical code for pothole patching, bituminous surfacing, and road roughness indices.\n- **State Municipal Corporation Acts (Pan-India)**:\n - *Telangana/Hyderabad*: GHMC Act 1955, Section 112 (Duty to maintain public streets).\n - *Maharashtra/Mumbai/Pune*: MMC Act 1888 Section 61(m) & BPMC Act 1949.\n - *Karnataka/Bengaluru*: Karnataka Municipal Corporations Act 1976 / BBMP Act 2020.\n - *Delhi*: Delhi Municipal Corporation Act 1957, Section 42 (Construction, maintenance of public streets).\n - *Tamil Nadu/Chennai*: Chennai City Municipal Corporation Act 1919 Section 203.\n - *West Bengal/Kolkata*: Kolkata Municipal Corporation Act 1980 Section 343.\n - *Uttar Pradesh/Lucknow*: UP Municipal Corporation Act 1959.",
+    "metadata": {
+      "category": "road_damage",
+      "section": "All-India Statutory Acts, Legal Codes & Technical Standards",
+      "file": "india_roads_and_highways.md"
+    },
+    "created_at": "2026-10-31T14:10:09.294752+00:00"
+  },
+  {
+    "_id": "chk_india_roads_and_highways_005",
+    "authority_id": "roads_highways_ulb",
+    "source": "india_roads_and_highways.md",
+    "text": "SLA Commitments & Escalation Matrix: - **Critical (Deep pothole/sinkhole >15cm on National Highway, State Highway, or Major Arterial road near hospitals/schools)**: **4 Hours** (Emergency cold/hot asphalt patch).\n- **High (Significant road crater, damaged culvert, broken drainage slab on bus route)**: **24 Hours**.\n- **Medium (Colony road roughness, damaged footpath kerb, minor pothole)**: **72 Hours**.\n- **Low (Aesthetic repainting, minor encroachment notice)**: **168 Hours (7 Days)**.\n- **Escalation**: Unresolved Ward/Junior Engineer grievances escalate to Executive Engineer (Tier 1B), Zonal Municipal Commissioner, and the District Collectorate (Tier 2).",
+    "metadata": {
+      "category": "road_damage",
+      "section": "SLA Commitments & Escalation Matrix",
+      "file": "india_roads_and_highways.md"
+    },
+    "created_at": "2026-10-31T14:10:09.294800+00:00"
+  },
+  {
+    "_id": "chk_india_roads_and_highways_006",
+    "authority_id": "roads_highways_ulb",
+    "source": "india_roads_and_highways.md",
+    "text": "Authority Directory Routing: - Primary Authority: Urban Local Body (ULB) / Municipal Corporation Road Maintenance Division / NHAI Project Implementation Unit (PIU)\n- Contact: PWD/Municipal Engineering Cell across all Indian Municipal Wards.",
+    "metadata": {
+      "category": "road_damage",
+      "section": "Authority Directory Routing",
+      "file": "india_roads_and_highways.md"
+    },
+    "created_at": "2026-10-31T14:10:09.294824+00:00"
+  },
+  {
+    "_id": "chk_india_sanitation_and_solid_waste_001",
+    "authority_id": "sanitation_solid_waste",
+    "source": "india_sanitation_and_solid_waste.md",
+    "text": "# Pan-India Solid Waste Management & Public Sanitation — Statutory Jurisdiction Knowledge Base",
+    "metadata": {
+      "category": "garbage",
+      "section": "General Standards",
+      "file": "india_sanitation_and_solid_waste.md"
+    },
+    "created_at": "2026-10-31T14:10:09.295508+00:00"
+  },
+  {
+    "_id": "chk_india_sanitation_and_solid_waste_002",
+    "authority_id": "sanitation_solid_waste",
+    "source": "india_sanitation_and_solid_waste.md",
+    "text": "National Authority Architecture (All India): Urban cleanliness, municipal solid waste management, scientific processing, and public sanitation across all Indian States and Union Territories are governed by:\n1. **Urban Local Bodies (ULBs)**: Municipal Corporations, Municipal Councils, Nagar Panchayats, and Cantonment Boards acting under the direct statutory framework of the Union Ministry of Environment, Forest and Climate Change (MoEFCC).\n2. **State Urban Development & Swachh Bharat Mission (Urban) Directorates**: Executive bodies supervising municipal solid waste infrastructure, biomining, legacy waste landfills, and scientific waste processing plants.",
+    "metadata": {
+      "category": "garbage",
+      "section": "National Authority Architecture (All India)",
+      "file": "india_sanitation_and_solid_waste.md"
+    },
+    "created_at": "2026-10-31T14:10:09.295571+00:00"
+  },
+  {
+    "_id": "chk_india_sanitation_and_solid_waste_003",
+    "authority_id": "sanitation_solid_waste",
+    "source": "india_sanitation_and_solid_waste.md",
+    "text": "Scope of Grievances Handled: - Overflowing community garbage bins, dumper placers, secondary collection depots, and garbage vulnerability points (GVPs)\n- Uncollected door-to-door residential and commercial municipal solid waste\n- Illegal open burning of leaves, municipal solid waste, plastic, and tyres on roadsides and vacant plots\n- Construction and Demolition (C&D) waste dumped illegally on footpaths, roadsides, stormwater drains, and lake beds\n- Dead animal carcasses (cows, dogs, livestock) left unattended on public streets causing severe biohazard\n- Public urination/defecation spots, unhygienic public/community toilets, and unmaintained mobile bio-toilets\n- Commercial food waste from hotels/markets dumped untreated into stormwater nalas and roadside gutters",
+    "metadata": {
+      "category": "garbage",
+      "section": "Scope of Grievances Handled",
+      "file": "india_sanitation_and_solid_waste.md"
+    },
+    "created_at": "2026-10-31T14:10:09.295623+00:00"
+  },
+  {
+    "_id": "chk_india_sanitation_and_solid_waste_004",
+    "authority_id": "sanitation_solid_waste",
+    "source": "india_sanitation_and_solid_waste.md",
+    "text": "All-India Statutory Acts, Legal Codes & Technical Standards: - **Solid Waste Management Rules 2016 (SWM Rules 2016, notified under Environment Protection Act 1986)**:\n - *Rule 15*: Direct mandatory duty on local authorities to arrange for daily door-to-door collection, segregated transport, processing of wet/dry/hazardous waste, and elimination of open dumping.\n - *Rule 19*: Strict ban on throwing, burning, or burying solid waste on streets, open public spaces, water bodies, or vacant plots. Mandates on-the-spot spot fines for littering and open burning.\n- **Environment (Protection) Act 1986, Sections 5 & 15**: Grants binding statutory power to municipal commissioners and environment officers to seize vehicles, close non-compliant commercial units, and prosecute offenders.\n- **Construction and Demolition (C&D) Waste Management Rules 2016**: Mandates separate collection and designated municipal recycling depots for building debris; prohibits dumping on roads or stormwater drains.\n- **National Green Tribunal (NGT) Principal Bench Directives**: Strict financial penalties levied against municipal commissioners and urban local bodies for uncollected garbage and open landfill fires (*Almitra H. Patel & Anr. v. Union of India*).\n- **Swachh Bharat Mission (Urban) 2.0 Directives**: Star rating protocols for Garbage Free Cities (GFC) and Open Defecation Free (ODF++) service benchmarks.\n- **State Municipal Acts (Pan-India)**:\n - *Delhi*: DMC Act 1957 Section 353 (Duty of Commissioner in respect of disposal of rubbish).\n - *Maharashtra*: MMC Act 1888 Section 365 (Scavenging and cleansing of streets).\n - *Telangana*: Telangana Municipalities Act 2019 Section 154 (Duty to clean streets and collect waste).\n - *West Bengal*: KMC Act 1980 Section 312.\n - *Tamil Nadu*: Tamil Nadu Urban Local Bodies Act 1998 Section 128.",
+    "metadata": {
+      "category": "garbage",
+      "section": "All-India Statutory Acts, Legal Codes & Technical Standards",
+      "file": "india_sanitation_and_solid_waste.md"
+    },
+    "created_at": "2026-10-31T14:10:09.295743+00:00"
+  },
+  {
+    "_id": "chk_india_sanitation_and_solid_waste_005",
+    "authority_id": "sanitation_solid_waste",
+    "source": "india_sanitation_and_solid_waste.md",
+    "text": "SLA Commitments & Escalation Matrix: - **Critical (Dead animal carcass on street, burning garbage emitting toxic fumes near schools/hospitals, hazardous waste spill)**: **4 Hours**.\n- **High (Overflowing municipal dumper placer blocking road or pedestrian movement)**: **12 Hours**.\n- **Medium (Missed daily door-to-door collection route, dirty community toilet)**: **24 Hours**.\n- **Low (Sanction of secondary bin, sweeping frequency adjustment)**: **72 Hours**.\n- **Escalation**: Unresolved complaints escalate to Sanitary Inspector -> Chief Medical Officer of Health (CMOH) / Additional Commissioner (Sanitation) -> Municipal Commissioner -> State Pollution Control Board.",
+    "metadata": {
+      "category": "garbage",
+      "section": "SLA Commitments & Escalation Matrix",
+      "file": "india_sanitation_and_solid_waste.md"
+    },
+    "created_at": "2026-10-31T14:10:09.295789+00:00"
+  },
+  {
+    "_id": "chk_india_sanitation_and_solid_waste_006",
+    "authority_id": "sanitation_solid_waste",
+    "source": "india_sanitation_and_solid_waste.md",
+    "text": "Authority Directory Routing: - Primary Authority: Urban Local Body (ULB) / Municipal Solid Waste Management & Health Directorate\n- Swachhata App Integration: Central Ministry of Housing & Urban Affairs (MoHUA) Swachhata Grievance Portal.",
+    "metadata": {
+      "category": "garbage",
+      "section": "Authority Directory Routing",
+      "file": "india_sanitation_and_solid_waste.md"
+    },
+    "created_at": "2026-10-31T14:10:09.295814+00:00"
+  },
+  {
+    "_id": "chk_india_urban_forestry_and_tree_hazards_001",
+    "authority_id": "horticulture_tree_authority",
+    "source": "india_urban_forestry_and_tree_hazards.md",
+    "text": "# Pan-India Urban Forestry, Parks & Tree Hazards — Statutory Jurisdiction Knowledge Base",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "General Standards",
+      "file": "india_urban_forestry_and_tree_hazards.md"
+    },
+    "created_at": "2026-10-31T14:10:09.296337+00:00"
+  },
+  {
+    "_id": "chk_india_urban_forestry_and_tree_hazards_002",
+    "authority_id": "horticulture_tree_authority",
+    "source": "india_urban_forestry_and_tree_hazards.md",
+    "text": "National Authority Architecture (All India): Urban tree canopy preservation, botanical safety management, road median greenery, and emergency storm clearance across all States and Union Territories of India are overseen by:\n1. **Municipal Tree Authorities & Horticulture Departments**: Statutory committees constituted under state tree protection legislation within every Urban Local Body (Municipal Corporation / Municipality).\n2. **State Forest Departments (Social Forestry / Territorial Wings)**: Custodians of protected trees, urban reserve forests, institutional greens, and biodiversity corridors.\n3. **Disaster Response Force (SDRF / City Disaster Response Units)**: Specialized emergency squads tasked with heavy motorized chainsaw clearance of uprooted trees during monsoons and severe convective storms.",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "National Authority Architecture (All India)",
+      "file": "india_urban_forestry_and_tree_hazards.md"
+    },
+    "created_at": "2026-10-31T14:10:09.296398+00:00"
+  },
+  {
+    "_id": "chk_india_urban_forestry_and_tree_hazards_003",
+    "authority_id": "horticulture_tree_authority",
+    "source": "india_urban_forestry_and_tree_hazards.md",
+    "text": "Scope of Grievances Handled: - Trees uprooted and fallen across major arterial roads, national highway stretches, railway tracks, or footpaths\n- Large, cracked, or dried branches dangling precariously over roadways, live power conductors, or school entrances\n- Overgrown tree foliage completely obscuring traffic signals, high-mast streetlights, or critical directional road signs\n- Dead, diseased, hollow, or termite-infested roadside trees posing imminent structural collapse hazard onto vehicles or homes\n- Tree roots violently breaking through municipal footpaths, underground water mains, or road asphalt surfaces\n- Illegal felling, hacking, or unauthorized poisoning/girdling of heritage trees in urban public spaces",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "Scope of Grievances Handled",
+      "file": "india_urban_forestry_and_tree_hazards.md"
+    },
+    "created_at": "2026-10-31T14:10:09.296446+00:00"
+  },
+  {
+    "_id": "chk_india_urban_forestry_and_tree_hazards_004",
+    "authority_id": "horticulture_tree_authority",
+    "source": "india_urban_forestry_and_tree_hazards.md",
+    "text": "All-India Statutory Acts, Legal Codes & Technical Standards: - **Constitution of India — Article 48A & 51A(g)**: Directive Principles and Fundamental Duties obligating the State and every citizen to protect and improve the natural environment, forests, and green canopy.\n- **State Tree Preservation Legislation (Pan-India)**:\n - *Delhi*: Delhi Tree Preservation Act 1994, Section 8 (Restrictions on felling trees; mandatory permission and compensatory plantation of 10 trees per felled tree).\n - *Maharashtra*: Maharashtra (Urban Areas) Protection and Preservation of Trees Act 1975, Section 7 (Mandatory creation of municipal Tree Authority).\n - *Karnataka*: Karnataka Preservation of Trees Act 1976 (Section 8: Prior approval of Tree Officer mandatory).\n - *Telangana/AP*: Telangana Water, Land and Trees Act (WALTA) 2002, Section 28 (Tree protection, permission, and emergency felling).\n - *Tamil Nadu*: Tamil Nadu Forest Act & Municipal Tree Guidelines.\n - *West Bengal*: West Bengal Trees (Protection and Conservation in Non-Forest Areas) Act 2006.\n- **Indian Forest Act 1927 / Wildlife Protection Act 1972**: Protection of notified forest species and nesting urban wildlife.\n- **National Disaster Management Authority (NDMA) Urban Storm Protocols**: Pre-monsoon mandatory canopy pruning and rapid tree obstacle clearance SOPs.",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "All-India Statutory Acts, Legal Codes & Technical Standards",
+      "file": "india_urban_forestry_and_tree_hazards.md"
+    },
+    "created_at": "2026-10-31T14:10:09.296541+00:00"
+  },
+  {
+    "_id": "chk_india_urban_forestry_and_tree_hazards_005",
+    "authority_id": "horticulture_tree_authority",
+    "source": "india_urban_forestry_and_tree_hazards.md",
+    "text": "SLA Commitments & Escalation Matrix: - **Critical (Tree fallen across arterial roadway blocking traffic, snapped live electrical cable, or crushed vehicle)**: **2 Hours** (Emergency DRF / Horticulture flying squad dispatch).\n- **High (Heavy cracked branch threatening pedestrians over school gate or busy sidewalk)**: **12 Hours**.\n- **Medium (Overgrown branches blocking streetlights or traffic signboards)**: **48 Hours**.\n- **Low (Routine colony pruning request, dry branch trimming)**: **120 Hours (5 Days)**.\n- **Escalation**: Unresolved grievances escalate to Municipal Tree Officer -> Deputy Director (Horticulture) -> Director of Urban Biodiversity -> Municipal Commissioner.",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "SLA Commitments & Escalation Matrix",
+      "file": "india_urban_forestry_and_tree_hazards.md"
+    },
+    "created_at": "2026-10-31T14:10:09.296588+00:00"
+  },
+  {
+    "_id": "chk_india_urban_forestry_and_tree_hazards_006",
+    "authority_id": "horticulture_tree_authority",
+    "source": "india_urban_forestry_and_tree_hazards.md",
+    "text": "Authority Directory Routing: - Primary Authority: Municipal Tree Authority / Urban Biodiversity & Horticulture Directorate\n- Emergency Response: City Disaster Response Force (DRF) / SDRF Fire & Emergency Services (112 / 101).",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "Authority Directory Routing",
+      "file": "india_urban_forestry_and_tree_hazards.md"
+    },
+    "created_at": "2026-10-31T14:10:09.296610+00:00"
+  },
+  {
+    "_id": "chk_india_water_and_sewerage_001",
+    "authority_id": "water_sewerage_board",
+    "source": "india_water_and_sewerage.md",
+    "text": "# Pan-India Water Supply & Public Sewerage — Statutory Jurisdiction Knowledge Base",
+    "metadata": {
+      "category": "water_leak",
+      "section": "General Standards",
+      "file": "india_water_and_sewerage.md"
+    },
+    "created_at": "2026-10-31T14:10:09.297138+00:00"
+  },
+  {
+    "_id": "chk_india_water_and_sewerage_002",
+    "authority_id": "water_sewerage_board",
+    "source": "india_water_and_sewerage.md",
+    "text": "National Authority Architecture (All India): Urban potable water supply, trunk transmission, and underground sewerage infrastructure across all Indian States and Union Territories are administered by:\n1. **Dedicated Urban Water & Sewerage Undertakings**: e.g., Delhi Jal Board (DJB), Bangalore Water Supply and Sewerage Board (BWSSB), Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB), Hyderabad Metropolitan Water Supply and Sewerage Board (HMWSSB), Kerala Water Authority (KWA), UP Jal Nigam.\n2. **Municipal Corporation Water Works & Public Health Engineering Departments (PHED)**: In cities without separate statutory water boards, municipal engineering divisions operate water distribution and sewer networks under the 74th Constitutional Amendment (12th Schedule).",
+    "metadata": {
+      "category": "water_leak",
+      "section": "National Authority Architecture (All India)",
+      "file": "india_water_and_sewerage.md"
+    },
+    "created_at": "2026-10-31T14:10:09.297200+00:00"
+  },
+  {
+    "_id": "chk_india_water_and_sewerage_003",
+    "authority_id": "water_sewerage_board",
+    "source": "india_water_and_sewerage.md",
+    "text": "Scope of Grievances Handled: - Major potable water pipeline bursts, high-pressure trunk main ruptures, and localized road flooding\n- Low pressure, disrupted drinking water supply, or dry water taps in residential sectors\n- Contaminated drinking water supply (turbid water, sewage infiltration into drinking water lines, foul odor)\n- Blocked underground sewer mains, sewage backflow flooding roads, footpaths, or ground floors\n- Open, broken, damaged, or stolen sewer and stormwater manhole covers on thoroughfares\n- Overflowing domestic septic tanks, missing sewer connections, and illicit wastewater dumping",
+    "metadata": {
+      "category": "water_leak",
+      "section": "Scope of Grievances Handled",
+      "file": "india_water_and_sewerage.md"
+    },
+    "created_at": "2026-10-31T14:10:09.297245+00:00"
+  },
+  {
+    "_id": "chk_india_water_and_sewerage_004",
+    "authority_id": "water_sewerage_board",
+    "source": "india_water_and_sewerage.md",
+    "text": "All-India Statutory Acts, Legal Codes & Technical Standards: - **Constitution of India — Article 21**: Supreme Court of India precedent recognizing the fundamental right to clean and safe drinking water as an integral facet of the Right to Life (*Subhash Kumar v. State of Bihar* & *AP Pollution Control Board v. MV Nayudu*).\n- **Water (Prevention and Control of Pollution) Act 1974 (Sections 24, 25 & 33A)**: Prohibits the discharge of untreated domestic sewage or industrial waste into any stream, lake, well, sewer, or on land. Empowered statutory boards to issue immediate closure and remediation orders.\n- **Prohibition of Employment as Manual Scavengers and their Rehabilitation Act 2013**: Absolute prohibition on manual entry into hazardous sewers and septic tanks. Mandates Urban Local Bodies and Water Boards to deploy mechanized suction-cum-jetting machines and robotic rovers for sewer unclogging.\n- **Bureau of Indian Standards (BIS IS 10500:2012)**: Mandatory national physical, chemical, and microbiological drinking water quality standards.\n- **CPHEEO (Central Public Health & Environmental Engineering Organisation) Manuals**: Ministry of Housing and Urban Affairs (MoHUA) national guidelines for water treatment, pipe distribution networks, and sewerage design.\n- **AMRUT 2.0 & Jal Jeevan Mission (Urban)**: National service delivery benchmarks requiring 135 liters per capita per day (lpcd) universal tap water and 100% sewerage network coverage.\n- **State Water & Sewerage Acts**:\n - *Delhi*: Delhi Water Board Act 1998.\n - *Karnataka*: BWSSB Act 1964.\n - *Tamil Nadu*: CMWSSB Act 1978.\n - *Telangana*: HMWSSB Act 1989 Section 12 & Section 42.\n - *Maharashtra*: Maharashtra Municipalities & Water Supply Regulations.",
+    "metadata": {
+      "category": "water_leak",
+      "section": "All-India Statutory Acts, Legal Codes & Technical Standards",
+      "file": "india_water_and_sewerage.md"
+    },
+    "created_at": "2026-10-31T14:10:09.297370+00:00"
+  },
+  {
+    "_id": "chk_india_water_and_sewerage_005",
+    "authority_id": "water_sewerage_board",
+    "source": "india_water_and_sewerage.md",
+    "text": "SLA Commitments & Escalation Matrix: - **Critical (Open/missing manhole cover, trunk water main burst flooding road, sewage entering drinking water network)**: **4 Hours** (Immediate barricading, emergency jetting, and valve throttling).\n- **High (Overflowing residential sewer line, contaminated water supply to community)**: **12 Hours**.\n- **Medium (Low water pressure, minor pipeline leakage, damaged valve chamber)**: **48 Hours**.\n- **Low (Billing/meter complaints, new sewer line sanctioning)**: **168 Hours (7 Days)**.\n- **Escalation**: Unresolved Ward/Section complaints escalate to Assistant Executive Engineer (AEE), General Manager (O&M), Municipal Commissioner, and District Magistrate (DDMA).",
+    "metadata": {
+      "category": "water_leak",
+      "section": "SLA Commitments & Escalation Matrix",
+      "file": "india_water_and_sewerage.md"
+    },
+    "created_at": "2026-10-31T14:10:09.297413+00:00"
+  },
+  {
+    "_id": "chk_india_water_and_sewerage_006",
+    "authority_id": "water_sewerage_board",
+    "source": "india_water_and_sewerage.md",
+    "text": "Authority Directory Routing: - Primary Authority: Urban Water Supply & Sewerage Board / Municipal Jal Board / PHED Water Works\n- National Helpline: 1916 (Centralized Jal Board Helpline in multiple Indian metropolitan zones).",
+    "metadata": {
+      "category": "water_leak",
+      "section": "Authority Directory Routing",
+      "file": "india_water_and_sewerage.md"
+    },
+    "created_at": "2026-10-31T14:10:09.297435+00:00"
+  },
+  {
+    "_id": "chk_tsspdcl_streetlights_001",
+    "authority_id": "horticulture_tree_authority",
+    "source": "tsspdcl_streetlights.md",
+    "text": "# TSSPDCL & GHMC Electrical Wing — Streetlight & Grid Maintenance Knowledge Base",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "General Standards",
+      "file": "tsspdcl_streetlights.md"
+    },
+    "created_at": "2026-10-31T14:10:09.297878+00:00"
+  },
+  {
+    "_id": "chk_tsspdcl_streetlights_002",
+    "authority_id": "horticulture_tree_authority",
+    "source": "tsspdcl_streetlights.md",
+    "text": "Authority Overview: Public illumination across the Hyderabad metropolitan region is jointly managed by the\nTelangana State Southern Power Distribution Company Limited (TSSPDCL) and the GHMC Electrical Wing.\nTSSPDCL supplies 230V/415V low-tension distribution, while GHMC manages central monitoring system (CCMS)\nLED street fixtures and high-mast towers.",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "Authority Overview",
+      "file": "tsspdcl_streetlights.md"
+    },
+    "created_at": "2026-10-31T14:10:09.297913+00:00"
+  },
+  {
+    "_id": "chk_tsspdcl_streetlights_003",
+    "authority_id": "horticulture_tree_authority",
+    "source": "tsspdcl_streetlights.md",
+    "text": "Jurisdiction & Coverage: - Roadway illumination on all municipal roads, arterial bypasses, and colony lanes\n- High-mast lighting at major intersections, traffic roundabouts, and flyovers\n- Damaged, leaning, or fallen electrical poles posing electrocution risk\n- Exposed wiring, sparking junction boxes, and open feeder panels accessible to pedestrians\n- Dark corridor remediation along designated women safety zones",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "Jurisdiction & Coverage",
+      "file": "tsspdcl_streetlights.md"
+    },
+    "created_at": "2026-10-31T14:10:09.297946+00:00"
+  },
+  {
+    "_id": "chk_tsspdcl_streetlights_004",
+    "authority_id": "horticulture_tree_authority",
+    "source": "tsspdcl_streetlights.md",
+    "text": "Statutory Citations & Charter Standards: - Electricity Act 2003, Section 53 (Provisions relating to safety and electric supply)\n- GHMC Municipal Lighting Citizen Charter 2024: Mandatory repair of dark corridor within 24 hours.\n- National Electrical Code (NEC) Section 7: Public safety grounding for road light poles.",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "Statutory Citations & Charter Standards",
+      "file": "tsspdcl_streetlights.md"
+    },
+    "created_at": "2026-10-31T14:10:09.297974+00:00"
+  },
+  {
+    "_id": "chk_tsspdcl_streetlights_005",
+    "authority_id": "horticulture_tree_authority",
+    "source": "tsspdcl_streetlights.md",
+    "text": "SLA & Escalation: - Critical (sparking live cable, hanging wires, pole collapse on road): 2 hours\n- High (consecutive dark streetlights on arterial road or hospital route): 24 hours\n- Medium (single non-functional LED luminaire in residential street): 48 hours\n- Escalation: Escalates to TSSPDCL Divisional Engineer and GHMC Superintending Engineer (Electrical).",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "SLA & Escalation",
+      "file": "tsspdcl_streetlights.md"
+    },
+    "created_at": "2026-10-31T14:10:09.298002+00:00"
+  },
+  {
+    "_id": "chk_tsspdcl_streetlights_006",
+    "authority_id": "horticulture_tree_authority",
+    "source": "tsspdcl_streetlights.md",
+    "text": "Contact: Email: streetlights@tsspdcl.gov.in\nHelpline: 1912 / 040-23456789",
+    "metadata": {
+      "category": "tree_hazard",
+      "section": "Contact",
+      "file": "tsspdcl_streetlights.md"
+    },
+    "created_at": "2026-10-31T14:10:09.298014+00:00"
+  }
+]

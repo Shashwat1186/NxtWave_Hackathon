@@ -1,0 +1,8 @@
+{
+  "is_civic": true,
+  "is_spam": false,
+  "is_nsfw": false,
+  "rejection_reason": null,
+  "confidence": 0.95
+}
+
