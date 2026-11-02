@@ -154,17 +154,7 @@ def create_app() -> FastAPI:
     @app.get("/health", tags=["meta"])
     @app.get("/api/health", tags=["meta"])
     async def health():
-        from app.core import database
-        db_obj = getattr(database, "_db", None)
-        db_type = type(db_obj).__name__ if db_obj else "None"
-        db_err = getattr(database, "_db_error", None)
-        return {
-            "status": "ok",
-            "demo_mode": settings.DEMO_MODE,
-            "env": settings.ENV,
-            "db_type": db_type,
-            "db_error": db_err,
-        }
+        return {"status": "ok", "demo_mode": settings.DEMO_MODE, "env": settings.ENV}
 
     return app
 

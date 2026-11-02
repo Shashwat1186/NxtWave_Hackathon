@@ -5,6 +5,18 @@
 
 ---
 
+## 🌐 Live Production Deployments
+
+| Component | Production URL | Status |
+| :--- | :--- | :--- |
+| **Frontend Web App** | [frontend-kappa-seven-ar0aabmczr.vercel.app](https://frontend-kappa-seven-ar0aabmczr.vercel.app) | **Live & Operational** |
+| **Mirror Domain** | [nxtwavehackathon.vercel.app](https://nxtwavehackathon.vercel.app) | **Live & Operational** |
+| **FastAPI Backend** | [backend-peach-xi-25.vercel.app](https://backend-peach-xi-25.vercel.app) | **Live (MongoDB Atlas)** |
+| **Public Dashboard** | [frontend-kappa-seven-ar0aabmczr.vercel.app/dashboard](https://frontend-kappa-seven-ar0aabmczr.vercel.app/dashboard) | **Live & Operational** |
+| **Supervisor / Admin Console** | [frontend-kappa-seven-ar0aabmczr.vercel.app/admin](https://frontend-kappa-seven-ar0aabmczr.vercel.app/admin) | **Live & Operational** |
+
+---
+
 ## Problem at a Glance
 
 India's civic grievance ecosystem is broken. Citizens report infrastructure failures — potholes, burst water mains, downed streetlights — but complaints are misrouted, duplicated, lost, or ignored. CivicTriage fixes the three root causes:
