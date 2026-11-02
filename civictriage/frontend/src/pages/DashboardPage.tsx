@@ -182,7 +182,7 @@ export default function DashboardPage() {
       {/* Map & Leaderboard Section */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Map Column (2 spans) */}
-        <div className="lg:col-span-2 h-[540px]">
+        <div className="lg:col-span-2 h-[540px]" style={{ isolation: "isolate" }}>
           <IssueMap height="100%" />
         </div>
 

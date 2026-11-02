@@ -5,6 +5,10 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/api/(.*)",
+      "destination": "https://backend-peach-xi-25.vercel.app/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

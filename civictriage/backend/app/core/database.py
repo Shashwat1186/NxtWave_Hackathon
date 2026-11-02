@@ -36,6 +36,7 @@ logger = logging.getLogger(__name__)
 
 _client: Optional[AsyncIOMotorClient] = None
 _db: Any = None
+_db_error: Optional[str] = None
 
 
 # ── In-Memory Resilient Mock Database for DEMO_MODE & Offline Testing ────────
@@ -499,21 +500,22 @@ class InMemoryDatabase:
 
 async def connect_db() -> None:
     """Connect to MongoDB Atlas, falling back gracefully to InMemoryDatabase if offline."""
-    global _client, _db
+    global _client, _db, _db_error
     settings = get_settings()
 
     if settings.DEMO_MODE:
         logger.info("DEMO_MODE active: using InMemoryDatabase")
         _db = InMemoryDatabase()
         await _db._load_seed_data()
+        _db_error = None
         return
 
     try:
         _client = AsyncIOMotorClient(
             settings.MONGODB_URI,
             tlsCAFile=certifi.where(),
-            serverSelectionTimeoutMS=2000,
-            connectTimeoutMS=2000,
+            serverSelectionTimeoutMS=8000,
+            connectTimeoutMS=8000,
         )
         # Verify network, credentials, and that a writable Primary exists
         await _client.admin.command("ping")
@@ -522,6 +524,7 @@ async def connect_db() -> None:
         await _test_db["__conn_probe__"].update_one({"_id": probe_id}, {"$set": {"t": 1}}, upsert=True)
         await _test_db["__conn_probe__"].delete_one({"_id": probe_id})
         _db = _test_db
+        _db_error = None
         await _ensure_indexes()
         # Ensure rule engine collections are seeded if empty
         try:
@@ -541,6 +544,7 @@ async def connect_db() -> None:
             logger.warning("Auto-seed check skipped: %s", seed_exc)
         logger.info("Connected to MongoDB Atlas DB: %s", settings.MONGODB_DB)
     except Exception as exc:
+        _db_error = f"{type(exc).__name__}: {str(exc)}"
         logger.warning(
             "MongoDB Atlas unreachable (%s). Activating resilient InMemory database fallback for 100%% live uptime.",
             exc,

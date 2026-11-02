@@ -120,10 +120,51 @@ def create_app() -> FastAPI:
     app.include_router(dashboard.router)
     app.include_router(admin.router)
 
-    # Health check
+    # Path unwrap middleware for Vercel Serverless Function rewrites
+    @app.middleware("http")
+    async def vercel_path_normalization_middleware(request, call_next):
+        # 1. Check if passed via query rewrite parameter
+        param_path = request.query_params.get("__path__")
+        if param_path:
+            request.scope["path"] = "/" + param_path.lstrip("/")
+        else:
+            matched_path = request.headers.get("x-matched-path") or request.headers.get("x-invoke-path")
+            if matched_path and not matched_path.startswith("/api/index.py"):
+                request.scope["path"] = matched_path.split("?")[0]
+            else:
+                path = request.scope.get("path", "")
+                if path.startswith("/api/index.py"):
+                    request.scope["path"] = path[len("/api/index.py"):] or "/"
+                elif path.startswith("/api/index"):
+                    request.scope["path"] = path[len("/api/index"):] or "/"
+        return await call_next(request)
+
+    # Root & Health check endpoints
+    @app.get("/", tags=["meta"])
+    @app.get("/api", tags=["meta"])
+    async def root():
+        return {
+            "status": "ok",
+            "app": "CivicTriage API",
+            "health": "/health",
+            "demo_mode": settings.DEMO_MODE,
+            "env": settings.ENV,
+        }
+
     @app.get("/health", tags=["meta"])
+    @app.get("/api/health", tags=["meta"])
     async def health():
-        return {"status": "ok", "demo_mode": settings.DEMO_MODE, "env": settings.ENV}
+        from app.core import database
+        db_obj = getattr(database, "_db", None)
+        db_type = type(db_obj).__name__ if db_obj else "None"
+        db_err = getattr(database, "_db_error", None)
+        return {
+            "status": "ok",
+            "demo_mode": settings.DEMO_MODE,
+            "env": settings.ENV,
+            "db_type": db_type,
+            "db_error": db_err,
+        }
 
     return app
 

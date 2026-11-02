@@ -73,46 +73,60 @@ async def get_dashboard_stats():
 async def get_authority_leaderboard():
     db = await get_db()
 
-    pipeline = [
-        {"$group": {
-            "_id": "$authority_id",
-            "authority_name": {"$first": "$authority_name"},
-            "total_tickets": {"$sum": 1},
-            "resolved_tickets": {"$sum": {
-                "$cond": [{"$in": ["$status", ["resolved", "closed"]]}, 1, 0]
-            }},
-            "sla_breach_count": {"$sum": {
-                "$cond": ["$is_publicly_flagged", 1, 0]
-            }},
-            "avg_resolution_ms": {"$avg": {
-                "$cond": [
-                    {"$in": ["$status", ["resolved", "closed"]]},
-                    {"$subtract": ["$updated_at", "$created_at"]},
-                    None,
-                ]
-            }},
-        }},
-        {"$sort": {"total_tickets": -1}},
-    ]
+    # Fetch all tickets and aggregate in Python to support both real MongoDB
+    # and the InMemoryDatabase fallback used during network outages.
+    try:
+        cursor = db.tickets.find({}).sort("created_at", -1)
+        all_tickets = await cursor.to_list(length=500)
+    except Exception:
+        all_tickets = []
 
-    cursor = db.tickets.aggregate(pipeline)
-    docs = await cursor.to_list(length=100)
+    # Group by authority_id (or department_id as fallback)
+    grouped: dict[str, dict] = {}
+    for t in all_tickets:
+        auth_id = str(t.get("authority_id") or t.get("department_id") or "").strip()
+        if not auth_id:
+            continue
+        if auth_id not in grouped:
+            grouped[auth_id] = {
+                "authority_id": auth_id,
+                "authority_name": str(
+                    t.get("authority_name") or t.get("department_name") or auth_id
+                ),
+                "total_tickets": 0,
+                "resolved_tickets": 0,
+                "sla_breach_count": 0,
+                "resolution_ms_list": [],
+            }
+        g = grouped[auth_id]
+        g["total_tickets"] += 1
+        if t.get("status") in ("resolved", "closed"):
+            g["resolved_tickets"] += 1
+            created = t.get("created_at")
+            updated = t.get("updated_at")
+            if created and updated:
+                try:
+                    diff_ms = (updated - created).total_seconds() * 1000
+                    g["resolution_ms_list"].append(diff_ms)
+                except Exception:
+                    pass
+        if t.get("is_publicly_flagged"):
+            g["sla_breach_count"] += 1
 
     entries = []
-    for doc in docs:
-        total = doc.get("total_tickets", 0)
-        resolved = doc.get("resolved_tickets", 0)
-        breaches = doc.get("sla_breach_count", 0)
-        avg_ms = doc.get("avg_resolution_ms")
-        avg_hours = round(avg_ms / 3600000, 1) if avg_ms else None
+    for g in grouped.values():
+        total = g["total_tickets"]
+        resolved = g["resolved_tickets"]
+        breaches = g["sla_breach_count"]
+        ms_list = g["resolution_ms_list"]
+        avg_hours = round(sum(ms_list) / len(ms_list) / 3600000, 1) if ms_list else None
 
-        # Score: 0-100, reduced by 10 per breach
         resolution_rate = resolved / total if total > 0 else 0
         score = max(0.0, round((resolution_rate * 100) - (breaches * 10), 1))
 
         entries.append(AuthorityLeaderboardEntry(
-            authority_id=doc["_id"] or "unknown",
-            authority_name=doc.get("authority_name", "Unknown"),
+            authority_id=g["authority_id"],
+            authority_name=g["authority_name"],
             total_tickets=total,
             resolved_tickets=resolved,
             avg_resolution_hours=avg_hours,
@@ -120,6 +134,5 @@ async def get_authority_leaderboard():
             score=score,
         ))
 
-    # Sort by score descending
     entries.sort(key=lambda e: e.score, reverse=True)
     return entries

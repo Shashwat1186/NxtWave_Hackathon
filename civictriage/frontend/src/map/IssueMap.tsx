@@ -149,8 +149,8 @@ export default function IssueMap({
         </div>
       </div>
 
-      {/* Map View */}
-      <div className="relative flex-1 w-full" style={{ minHeight: height }}>
+      {/* Map View — isolation:isolate prevents z-index leak above sticky nav */}
+      <div className="relative flex-1 w-full" style={{ minHeight: height, isolation: "isolate" }}>
         {isLoading && (
           <div className="absolute inset-0 flex items-center justify-center bg-white/70 dark:bg-slate-900/70 z-20 backdrop-blur-2xs">
             <div className="flex items-center gap-2 text-xs font-bold text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 px-4 py-2 rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700">
